@@ -6,6 +6,7 @@ General
 h1 {
 	font-size: 16pt;
 	font-weight: 400;
+	color: #292929;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -43,20 +44,27 @@ div.header {
 	border-bottom-style: solid;
 	border-bottom-color: #000;
 	border-bottom-width: 1px;
-	padding-top: 50px;
+	padding-top: 53px;
 	margin-left: auto;
     margin-right: auto;
-    width: 12%;
+    width: 20%;
 }
 
 /**** Social Icon ****/
 
 #socialIcon {
 	list-style: none;
+	padding-right: 30px;
 }
 
 #socialIcon li {
 	display: inline-block;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#socialIcon li i {
+	color: #292929;
 }
 
 div.social {
