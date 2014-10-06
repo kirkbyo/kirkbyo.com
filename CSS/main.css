@@ -1,42 +1,64 @@
 
 /**********  
+General
+**********/
+
+h1 {
+	font-size: 16pt;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/**********  
 Header
 **********/
+
+/**** Header Text ****/
 
 div.header {
 	padding-top: 35px;
 	height: 100px; 
-    line-height: 100px;
     text-align:center;
+}
+
+.header p {
+	margin: 0px;
+	padding-top: 10px;
 }
 
 .profileLogo {
 	max-width: 75px;
-  	margin:0 auto 30px;
   	border-radius:100%;
+	padding-bottom: 0;
 }
 
-/**********  
-Centering Elements
-**********/ 
-
-/*
-div.introLogo {
-    height: 100px; 
-    line-height: 100px;
-    text-align:center;
-    padding-left: 60px;
+.header h1 {
+	margin: 0px;
+	padding-top: 10px;
 }
 
-div.introTextCenter {
-    height: 20px; 
-    text-align: center;
-    padding-top: 220px;
+/**** Divider ****/
+
+.line {
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-bottom-width: 1px;
+	padding-top: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 12%;
 }
 
-div.IntroSocialCenter {
-    height: 100px; 
-    text-align:center;
-    padding-left: 30px;
+/**** Social Icon ****/
+
+#socialIcon {
+	list-style: none;
 }
-*/
+
+#socialIcon li {
+	display: inline-block;
+}
+
+div.social {
+	text-align: center;
+}
