@@ -1,0 +1,42 @@
+
+/**********  
+Header
+**********/
+
+div.header {
+	padding-top: 35px;
+	height: 100px; 
+    line-height: 100px;
+    text-align:center;
+}
+
+.profileLogo {
+	max-width: 75px;
+  	margin:0 auto 30px;
+  	border-radius:100%;
+}
+
+/**********  
+Centering Elements
+**********/ 
+
+/*
+div.introLogo {
+    height: 100px; 
+    line-height: 100px;
+    text-align:center;
+    padding-left: 60px;
+}
+
+div.introTextCenter {
+    height: 20px; 
+    text-align: center;
+    padding-top: 220px;
+}
+
+div.IntroSocialCenter {
+    height: 100px; 
+    text-align:center;
+    padding-left: 30px;
+}
+*/
