@@ -11,6 +11,78 @@ h1 {
 }
 
 /**********  
+Intro
+**********/
+
+.pulldown {
+	margin-left: auto;
+    margin-right: auto;
+	width: 0%;
+}
+
+.pulldown i {
+	color: #292929;
+}
+
+.nav {
+	padding-top: 40px;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+#navLine {
+	border-bottom-style: solid;
+	border-bottom-color: #292929;;
+	border-bottom-width: 1px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.logo h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 50pt;
+	font-weight: 700;
+	border: 5px solid #262626;
+	width: 270px;
+}
+
+.logo {
+	height: 60px;
+	padding-top: 150px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.intro {
+	margin: 0px;
+}
+
+#mainIntro {
+    background-image:url('../img/Sunset-City.png');
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 1500px, 600px;
+    background-position: center;
+    width: 100%;
+    height: 660px;
+    margin: 0, 0;
+	margin-top: 0px;
+}
+
+/**** Centering ****/
+
+
+/**********  
 Header
 **********/
 
