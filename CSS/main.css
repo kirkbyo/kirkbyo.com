@@ -1,18 +1,11 @@
+/*----------------------------------------------------*/
+/************************ Home ************************/
+/*----------------------------------------------------*/
 
-/**********  
-General
-**********/
 
-h1 {
-	font-size: 16pt;
-	font-weight: 400;
-	color: #292929;
-	font-family: 'Open Sans', sans-serif;
-}
-
-/**********  
-Intro
-**********/
+/*==================================*/
+/************* Elements *************/
+/*==================================*/
 
 .pulldown {
 	margin-left: auto;
@@ -39,11 +32,27 @@ Intro
 #navLine {
 	border-bottom-style: solid;
 	border-bottom-color: #292929;;
-	border-bottom-width: 1px;
+	border-bottom-width: 2px;
 	margin-left: auto;
     margin-right: auto;
     width: 20%;
 }
+
+/*==================================*/
+/********** Home | General **********/
+/*==================================*/
+
+h1 {
+	font-size: 16pt;
+	font-weight: 400;
+	color: #292929;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*==================================*/
+/********** Home | Intro ************/
+/*==================================*/
 
 .logo h1 {
 	text-align: center;
@@ -79,66 +88,7 @@ Intro
 	margin-top: 0px;
 }
 
-/**** Centering ****/
+/*==================================*/
+/*********** Home | About ***********/
+/*==================================*/
 
-
-/**********  
-Header
-**********/
-
-/**** Header Text ****/
-
-div.header {
-	padding-top: 35px;
-	height: 100px; 
-    text-align:center;
-}
-
-.header p {
-	margin: 0px;
-	padding-top: 10px;
-}
-
-.profileLogo {
-	max-width: 75px;
-  	border-radius:100%;
-	padding-bottom: 0;
-}
-
-.header h1 {
-	margin: 0px;
-	padding-top: 10px;
-}
-
-/**** Divider ****/
-
-.line {
-	border-bottom-style: solid;
-	border-bottom-color: #000;
-	border-bottom-width: 1px;
-	padding-top: 53px;
-	margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-}
-
-/**** Social Icon ****/
-
-#socialIcon {
-	list-style: none;
-	padding-right: 30px;
-}
-
-#socialIcon li {
-	display: inline-block;
-	padding-left: 6px;
-	padding-right: 6px;
-}
-
-#socialIcon li i {
-	color: #292929;
-}
-
-div.social {
-	text-align: center;
-}
