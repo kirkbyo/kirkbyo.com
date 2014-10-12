@@ -16,6 +16,7 @@ h1 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15pt;
+	font-weight: 300;
 }
 
 .content {
@@ -106,6 +107,8 @@ p {
 }
 
 .about p {
+	font-family: 'open sans';
+	font-weight: 300;
 	margin-top: 8;
 	margin-bottom: 35;
 	text-align: center;
@@ -158,4 +161,42 @@ p {
     filter: alpha(opacity=40);
 }
 
+/*==================================*/
+/***** Repositories | List *****/
+/*==================================*/
+
+.repo ul {
+	list-style: none;
+}
+
+.repo ul li {
+	display: inline-block;
+	margin-bottom: 50px;
+	
+	border: 3px solid #292929;
+	border-radius: 4px;
+	
+	width: 380px;
+	height: 95px;
+}
+
+.repo ul li p {
+	padding: 0px 5px 10px 15px;
+	margin: 0px;
+	
+	font-size: 13pt;
+}
+
+.repo ul li h3 {
+	margin: 0px;
+	padding: 10px 10px 5px 15px;
+	
+	font-size: 16pt;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+#paddingTop {
+	padding-top: 5px;
+}
 
