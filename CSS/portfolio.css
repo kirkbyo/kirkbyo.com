@@ -62,6 +62,7 @@ p {
     margin-right: auto;
     width: 20%;
 }
+
 .header {
 	background-image:url('../img/Sunset-City.png');
     background-color: #cccccc;
@@ -90,7 +91,7 @@ body h2 {
 
 #GG-Previews ul li img {
 	margin: 5px;
-	width: 280px
+	width: 500px
 }
 
 #GG-Previews ul {
@@ -129,4 +130,66 @@ body h2 {
 .GG-Video {
 	padding-bottom: 100px;
 	margin: 0px;
+}
+
+/*----------------------------------------------------*/
+/*********************** Niroc ************************/
+/*----------------------------------------------------*/
+
+.N-Intro {
+	width: 45%;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#N-Previews ul li img {
+	margin: 5px;
+	width: 700px
+}
+
+#N-Previews ul {
+	list-style: none;
+}
+
+#N-Previews ul li {
+	display: inline-block;
+}
+
+#N-Previews {
+	padding-top: 7px;
+	text-align: center;
+}
+
+.previewText {
+	font-weight: 400;
+}
+
+/*----------------------------------------------------*/
+/*********************** Alpha ************************/
+/*----------------------------------------------------*/
+
+.Al-Intro {
+	width: 45%;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#Al-Previews ul li img {
+	margin: 5px;
+	width: 280px
+}
+
+#Al-Previews ul {
+	list-style: none;
+}
+
+#Al-Previews ul li {
+	display: inline-block;
+}
+
+#Al-Previews {
+	padding-top: 7px;
+	text-align: center;
 }
