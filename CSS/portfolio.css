@@ -136,6 +136,11 @@ body h2 {
 /*********************** Niroc ************************/
 /*----------------------------------------------------*/
 
+.N-Intro a {
+	color: #F14C23;
+	text-decoration: none;
+}
+
 .N-Intro {
 	width: 45%;
 	text-align: center;
