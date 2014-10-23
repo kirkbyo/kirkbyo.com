@@ -6,6 +6,10 @@
 /************* General **************/
 /*==================================*/
 
+a {
+	text-decoration: none;
+}
+
 h1 {	
 	font-family: 'roboto', sans-serif;
 	text-transform: uppercase;
@@ -122,6 +126,10 @@ p {
 	margin-left: 150px;
 	margin-top: 8;
 	width: 490px;
+}
+
+.about p a {
+	color: #70a758;
 }
 
 /*==================================*/
