@@ -6,7 +6,7 @@
 /************* General **************/
 /*==================================*/
 
-h1 {	
+h1 {
 	font-family: 'roboto', sans-serif;
 	text-transform: uppercase;
 	color: #292929;
@@ -27,8 +27,11 @@ p {
 
 .content {
   	width: 100%;
-}	
+}
 
+a {
+	text-decoration: none;
+}
 /*==================================*/
 /************* Elements *************/
 /*==================================*/
@@ -124,6 +127,10 @@ p {
 	width: 490px;
 }
 
+.about p a {
+	color: #2a9a59;
+}
+
 /*==================================*/
 /********* Home | Portfolio *********/
 /*==================================*/
@@ -146,7 +153,7 @@ p {
     list-style: none;
 	z-index: 8;
     text-align: center;
-	
+
     /** Padding for Footer**/
     padding-bottom: 120px;
 }
@@ -177,10 +184,10 @@ p {
 .repo ul li {
 	display: inline-block;
 	margin-bottom: 50px;
-	
+
 	border: 3px solid #292929;
 	border-radius: 4px;
-	
+
 	width: 380px;
 	height: 95px;
 }
@@ -188,14 +195,14 @@ p {
 .repo ul li p {
 	padding: 0px 5px 10px 15px;
 	margin: 0px;
-	
+
 	font-size: 13pt;
 }
 
 .repo ul li h3 {
 	margin: 0px;
 	padding: 10px 10px 5px 15px;
-	
+
 	font-size: 16pt;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
