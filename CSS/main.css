@@ -32,6 +32,10 @@ p {
 a {
 	text-decoration: none;
 }
+
+#learningAnch {
+	color: #F22727;
+}
 /*==================================*/
 /************* Elements *************/
 /*==================================*/
@@ -171,43 +175,4 @@ a {
 .portfolio ul li a img:hover{
 	opacity: 0.7;
     filter: alpha(opacity=40);
-}
-
-/*==================================*/
-/******* Repositories | List ********/
-/*==================================*/
-
-.repo ul {
-	list-style: none;
-}
-
-.repo ul li {
-	display: inline-block;
-	margin-bottom: 50px;
-
-	border: 3px solid #292929;
-	border-radius: 4px;
-
-	width: 380px;
-	height: 95px;
-}
-
-.repo ul li p {
-	padding: 0px 5px 10px 15px;
-	margin: 0px;
-
-	font-size: 13pt;
-}
-
-.repo ul li h3 {
-	margin: 0px;
-	padding: 10px 10px 5px 15px;
-
-	font-size: 16pt;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-}
-
-#paddingTop {
-	padding-top: 5px;
 }

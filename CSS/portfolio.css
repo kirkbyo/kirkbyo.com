@@ -6,7 +6,7 @@ body {
 	margin: 0;
 }
 
-h1 {	
+h1 {
 	font-family: 'roboto', sans-serif;
 	text-transform: uppercase;
 	color: #292929;
@@ -192,4 +192,50 @@ body h2 {
 #Al-Previews {
 	padding-top: 7px;
 	text-align: center;
+}
+
+.leftColTool {
+	float: left;
+	margin-left: 250px;
+}
+
+.rightColLang {
+	float: right;
+	margin-right: 250px;
+}
+
+/*----------------------------------------------------*/
+/********************* Learning ***********************/
+/*----------------------------------------------------*/
+
+a {
+	text-decoration: none;
+	color: #F22727;
+}
+
+a:link {
+	text-decoration: none;
+	color: #F22727;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #F22727;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #F22727;
+}
+
+.treeContainer {
+	margin: 2%;
+	width: 46%;
+	float: right;
+}
+
+.contentContainer {
+	float: left;
+	margin: 2%;
+	width: 46%;
 }
