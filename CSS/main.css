@@ -1,178 +1,49 @@
-/*----------------------------------------------------*/
-/************************ Home ************************/
-/*----------------------------------------------------*/
-
-/*==================================*/
-/************* General **************/
-/*==================================*/
-
-h1 {
-	font-family: 'roboto', sans-serif;
-	text-transform: uppercase;
-	color: #292929;
-	font-size: 13pt;
-	font-weight: 400;
-}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13pt;
-	font-weight: 300;
-}
-
-.line {
-	width: 100%;
-	border-bottom: 1.8px solid #E0E0E0;
-}
-
-.content {
-  	width: 100%;
-}
-
+/* line 10, ../Sass/main.scss */
 a {
-	text-decoration: none;
+  text-decoration: none;
+  color: #ca7a0f;
 }
 
-#learningAnch {
-	color: #F22727;
-}
-/*==================================*/
-/************* Elements *************/
-/*==================================*/
-
-.nav {
-	margin: 0;
-	padding-top: 40px;
-	font-family: 'roboto', "andale mono";
-	list-style: none;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 120px;
-	width: 400px;
+/* line 15, ../Sass/main.scss */
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #232323;
+  font-size: 13pt;
 }
 
-.nav li {
-	display: inline-block;
-	padding-left: 20px;
-	padding-right: 20px;
+/* line 22, ../Sass/main.scss */
+h1 {
+  font-family: "roboto", sans-serif;
+  text-transform: uppercase;
+  color: #232323;
+  font-weight: 400;
+  font-size: 14pt;
 }
 
-.nav li p {
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 0.875rem;
-	font-weight: 600;
-	color: #30393F;
+/* line 30, ../Sass/main.scss */
+body {
+  margin: 0px;
 }
 
-.nav li a {
-	text-decoration: none;
+/* line 34, ../Sass/main.scss */
+.content {
+  margin-left: 11%;
+  margin-right: 25%;
 }
 
-.nav li hover:a {
-	color: #
+/* line 39, ../Sass/main.scss */
+.line {
+  width: 100%;
+  border-bottom: 1.8px solid #E0E0E0;
 }
-
-/*==================================*/
-/********** Home | Intro ************/
-/*==================================*/
-
-.logo a {
-	text-decoration: none;
+/* line 43, ../Sass/main.scss */
+.line a {
+  text-decoration: none;
 }
-
-.logo h1 {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	font-size: 50pt;
-	font-weight: 700;
-	border: 5px solid #262626;
-	width: 270px;
-}
-
-.logo {
-	height: 60px;
-	padding-top: 110px;
-	margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-}
-
-.intro {
-	margin: 0px;
-}
-
-#mainIntro {
-    background-image:url('../img/Sunset-City.png');
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 1500px, 600px;
-    background-position: center;
-    width: 100%;
-    height: 660px;
-    margin: 0, 0;
-}
-
-/*==================================*/
-/*********** Home | About ***********/
-/*==================================*/
-
-.about h1 {
-	margin-left: 150px;
-	margin-bottom: 0;
-}
-
-.about p {
-	font-family: 'open sans';
-	font-weight: 300;
-	margin-left: 150px;
-	margin-top: 8;
-	width: 490px;
-}
-
-.about p a {
-	color: #2a9a59;
-}
-
-/*==================================*/
-/********* Home | Portfolio *********/
-/*==================================*/
-
-.portfolio h1 {
-	text-align: center;
-	margin-bottom: 0;
-}
-
-.portfolio p {
-	margin-top: 8;
-	text-align: center;
-}
-
-.portfolio {
-	max-width: 1440px;
-}
-
-.portfolio ul {
-    list-style: none;
-	z-index: 8;
-    text-align: center;
-
-    /** Padding for Footer**/
-    padding-bottom: 120px;
-}
-
-.portfolio ul li {
-    display:inline-block;
-    margin: 3px;
-}
-
-.portfolio ul li img {
-    width: 320px;
-    height: 235px;
-}
-
-.portfolio ul li a img:hover{
-	opacity: 0.7;
-    filter: alpha(opacity=40);
+/* line 47, ../Sass/main.scss */
+.line h1 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 13px;
 }

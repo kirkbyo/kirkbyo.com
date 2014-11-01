@@ -1,0 +1,32 @@
+
+.portfolio {
+   p {
+      text-align: center;
+   }
+
+   ul {
+      list-style: none;
+      text-align: center;
+
+      li {
+         display: inline-block;
+
+         a {
+            img {
+               width: 320px;
+               height: 235px;
+            }
+         }
+      }
+   }
+}
+
+.about {
+   .line {
+
+      h1 {
+         text-align: left;
+         margin-left: 140px;
+      }
+   }
+}
