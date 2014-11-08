@@ -1,0 +1,123 @@
+/*==================================*/
+/************* General **************/
+/*==================================*/
+
+$textColor: #292929;
+
+h2 {
+   text-align: center;
+   font-family: 'open sans',sans-serif;
+   color: $textColor;
+   font-size: 13pt;
+   font-weight: 600;
+}
+
+.textIntro {
+   margin: 0 auto;
+   text-align: center;
+   width: 90%;
+}
+
+.toolUsedList {
+   li {
+      a {
+            text-decoration: underline;
+            color: #333333;
+      }
+   }
+}
+
+/*==================================*/
+/************** Alpha ***************/
+/*==================================*/
+
+
+#Al-Previews {
+   text-align: center;
+   ul {
+      list-style: none;
+      li {
+         display: inline-block;
+         img {
+            width: 290px;
+         }
+      }
+   }
+}
+
+.leftColTool-Al {
+   width: 46%;
+   float: left;
+
+   p {
+      text-align: center;
+   }
+}
+
+.rightColLang-Al {
+   width: 46%;
+   float: right;
+
+   p {
+      text-align: center;
+      font-size: 11pt;
+   }
+}
+
+$swiftColor: #FFAC45;
+
+#Al-Lang {
+   border-radius: 8px;
+   height: 30px;
+   width: 95%;
+   background-color: $swiftColor;
+
+   p {
+      padding-top: 6px;
+      font-family: sans-serif;
+      font-size: 11pt;
+      font-weight: 300;
+      color: #fff;
+   }
+}
+
+/*==================================*/
+/************** Nroc ****************/
+/*==================================*/
+
+
+#nirocImage {
+   text-align: center;
+   ul {
+      list-style: none;
+
+      li {
+
+         img {
+            width: 80%;
+         }
+      }
+   }
+}
+
+/*==================================*/
+/******* Goodness Gracious **********/
+/*==================================*/
+
+
+#GG-Previews {
+   ul {
+      text-align: center;
+      list-style: none;
+      li {
+         margin: 40px;
+         img {
+            width: 60%;
+         }
+      }
+   }
+}
+
+#GG-Video {
+   text-align: center;
+}

@@ -1,10 +1,11 @@
-/* line 10, ../Sass/main.scss */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300|Roboto:400,500);
+/* line 12, ../Sass/main.scss */
 a {
   text-decoration: none;
   color: #ca7a0f;
 }
 
-/* line 15, ../Sass/main.scss */
+/* line 17, ../Sass/main.scss */
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -12,7 +13,7 @@ p {
   font-size: 13pt;
 }
 
-/* line 22, ../Sass/main.scss */
+/* line 24, ../Sass/main.scss */
 h1 {
   font-family: "roboto", sans-serif;
   text-transform: uppercase;
@@ -21,27 +22,27 @@ h1 {
   font-size: 14pt;
 }
 
-/* line 30, ../Sass/main.scss */
+/* line 32, ../Sass/main.scss */
 body {
   margin: 0px;
 }
 
-/* line 34, ../Sass/main.scss */
+/* line 36, ../Sass/main.scss */
 .content {
   margin-left: 11%;
   margin-right: 25%;
 }
 
-/* line 39, ../Sass/main.scss */
+/* line 41, ../Sass/main.scss */
 .line {
   width: 100%;
   border-bottom: 1.8px solid #E0E0E0;
 }
-/* line 43, ../Sass/main.scss */
+/* line 45, ../Sass/main.scss */
 .line a {
   text-decoration: none;
 }
-/* line 47, ../Sass/main.scss */
+/* line 49, ../Sass/main.scss */
 .line h1 {
   text-align: center;
   margin-bottom: 0;

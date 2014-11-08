@@ -1,0 +1,36 @@
+$logo-font: 'Open Sans',sans-serif;
+$logo-size: 50pt;
+$text-color: #232323;
+$nav-font: 'roboto','andale mono';
+
+body {
+   margin: 0px;
+}
+
+.slimHeader {
+   background-image: url(../img/Sunset-City.png);
+   margin: 0px;
+   background-color: #ccc;
+   background-repeat: no-repeat;
+   background-size: 1500px,400px;
+   background-position: center;
+   width: 100%;
+   height: 400px;
+}
+
+.slimLogo {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -250px 0 0 -130px;
+
+   h1 {
+      text-align: center;
+      font-family: $logo-font;
+      text-transform: uppercase;
+      font-size: $logo-size;
+      font-weight: 700;
+      border: 5px solid #262626;
+      width: 270px;
+   }
+}
