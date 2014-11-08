@@ -14,17 +14,16 @@
 /* line 15, ../Sass/home.scss */
 .portfolio ul li a img {
   margin: 40px 40px 5px 40px;
-  width: 425px;
-  height: 340px;
+  width: 80%;
 }
-/* line 21, ../Sass/home.scss */
+/* line 20, ../Sass/home.scss */
 .portfolio ul li a p {
   font-size: 16pt;
   font-family: 'open sans', sans-serif;
   font-weight: 600;
 }
 
-/* line 34, ../Sass/home.scss */
+/* line 33, ../Sass/home.scss */
 .about .line h1 {
   text-align: left;
   margin-left: 140px;

@@ -14,7 +14,7 @@ $nav-font: 'roboto','andale mono';
    height: 660px;
 
    .nav {
-      margin: 0 0 0 0;
+      margin: 0;
       padding-right: 35px;
       text-align: center;
       list-style: none;
@@ -40,9 +40,10 @@ $nav-font: 'roboto','andale mono';
 }
 
 .logo {
-   margin-left: auto;
-   margin-right: auto;
-   width: 22%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -115px 0 0 -130px;
 
    h1 {
       text-align: center;
