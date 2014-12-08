@@ -12,19 +12,20 @@
 /* line 16, ../Sass/header.scss */
 .header .nav {
   margin: 0;
+  padding-right: 35px;
   text-align: center;
   list-style: none;
 }
-/* line 21, ../Sass/header.scss */
+/* line 22, ../Sass/header.scss */
 .header .nav li {
-  padding: 30px 20px 75px 10px;
+  padding: 30px 20px 75px 20px;
   display: inline-block;
 }
-/* line 25, ../Sass/header.scss */
+/* line 26, ../Sass/header.scss */
 .header .nav li a {
   text-decoration: none;
 }
-/* line 29, ../Sass/header.scss */
+/* line 30, ../Sass/header.scss */
 .header .nav li p {
   text-transform: uppercase;
   text-align: center;
@@ -34,14 +35,14 @@
   color: #30393f;
 }
 
-/* line 41, ../Sass/header.scss */
+/* line 42, ../Sass/header.scss */
 .logo {
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -115px 0 0 -130px;
 }
-/* line 47, ../Sass/header.scss */
+/* line 48, ../Sass/header.scss */
 .logo h1 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
