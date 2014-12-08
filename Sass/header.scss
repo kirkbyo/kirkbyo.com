@@ -15,12 +15,11 @@ $nav-font: 'roboto','andale mono';
 
    .nav {
       margin: 0;
-      padding-right: 35px;
       text-align: center;
       list-style: none;
 
       li {
-         padding: 30px 20px 75px 20px;
+         padding: 30px 20px 75px 10px;
          display: inline-block;
 
          a {
