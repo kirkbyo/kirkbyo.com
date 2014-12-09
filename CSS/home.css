@@ -2,28 +2,27 @@
 .portfolio p {
   text-align: center;
 }
-/* line 7, ../Sass/home.scss */
-.portfolio ul {
-  list-style: none;
+/* line 6, ../Sass/home.scss */
+.portfolio div {
   text-align: center;
 }
+/* line 8, ../Sass/home.scss */
+.portfolio div span {
+  display: inline;
+}
 /* line 11, ../Sass/home.scss */
-.portfolio ul li {
-  display: inline-block;
+.portfolio div span a img {
+  margin: 0px;
+  width: 40%;
 }
-/* line 15, ../Sass/home.scss */
-.portfolio ul li a img {
-  margin: 40px 40px 5px 40px;
-  width: 80%;
-}
-/* line 20, ../Sass/home.scss */
-.portfolio ul li a p {
+/* line 16, ../Sass/home.scss */
+.portfolio div span a p {
   font-size: 16pt;
   font-family: 'open sans', sans-serif;
   font-weight: 600;
 }
 
-/* line 33, ../Sass/home.scss */
+/* line 29, ../Sass/home.scss */
 .about .line h1 {
   text-align: left;
   margin-left: 140px;

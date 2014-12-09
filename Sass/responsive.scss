@@ -46,6 +46,18 @@
       width: 100%;
       float: left;
    }
+
+   .portfolio {
+      div {
+         span {
+            a {
+               img {
+                  width: 80%;
+               }
+            }
+         }
+      }
+   }
 }
 
 @media screen and (max-width: 660px) {
