@@ -13,7 +13,7 @@
 /* line 11, ../Sass/home.scss */
 .portfolio div span a img {
   margin: 0px;
-  width: 40%;
+  width: 30%;
 }
 /* line 16, ../Sass/home.scss */
 .portfolio div span a p {
@@ -26,18 +26,4 @@
 .about .line h1 {
   text-align: left;
   margin-left: 140px;
-}
-
-/* line 36, ../Sass/home.scss */
-.codepen {
-  text-align: center;
-}
-/* line 39, ../Sass/home.scss */
-.codepen ul {
-  list-style: none;
-}
-/* line 42, ../Sass/home.scss */
-.codepen ul li {
-  width: 450px;
-  display: inline-block;
 }
