@@ -1,42 +1,59 @@
+@media screen and (max-width: 730px) {
+  /* line 5, ../Sass/responsive.scss */
+  .about .line h1 {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  /* line 11, ../Sass/responsive.scss */
+  .content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  /* line 15, ../Sass/responsive.scss */
+  .content p {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 480px) {
-  /* line 3, ../Sass/responsive.scss */
+  /* line 22, ../Sass/responsive.scss */
   .content {
     margin-left: 5%;
     margin-right: 5%;
   }
-  /* line 7, ../Sass/responsive.scss */
+  /* line 26, ../Sass/responsive.scss */
   .content p {
     text-align: center;
   }
 
-  /* line 14, ../Sass/responsive.scss */
+  /* line 33, ../Sass/responsive.scss */
   #GG-Previews ul li {
     margin: 10px;
   }
-  /* line 16, ../Sass/responsive.scss */
+  /* line 35, ../Sass/responsive.scss */
   #GG-Previews ul li img {
     width: 90%;
   }
 
-  /* line 23, ../Sass/responsive.scss */
+  /* line 42, ../Sass/responsive.scss */
   .leftColTool-Al {
     width: 100%;
     float: left;
   }
 
-  /* line 28, ../Sass/responsive.scss */
+  /* line 47, ../Sass/responsive.scss */
   .rightColLang-Al {
     width: 100%;
     float: left;
   }
 
-  /* line 33, ../Sass/responsive.scss */
+  /* line 52, ../Sass/responsive.scss */
   #Al-Lang {
     margin: 0 auto;
     margin-bottom: 60px;
   }
 
-  /* line 38, ../Sass/responsive.scss */
+  /* line 57, ../Sass/responsive.scss */
   .contentContainer {
     width: 100%;
     margin-left: 2%;
@@ -44,42 +61,48 @@
     float: left;
   }
 
-  /* line 45, ../Sass/responsive.scss */
+  /* line 64, ../Sass/responsive.scss */
   .treeContainer {
     width: 100%;
     float: left;
   }
 
-  /* line 54, ../Sass/responsive.scss */
+  /* line 73, ../Sass/responsive.scss */
   .portfolio div span a img {
     width: 80%;
   }
+
+  /* line 84, ../Sass/responsive.scss */
+  .about .line h1 {
+    text-align: center;
+    margin-left: 0px;
+  }
 }
 @media screen and (max-width: 660px) {
-  /* line 68, ../Sass/responsive.scss */
+  /* line 97, ../Sass/responsive.scss */
   #GG-Previews ul li img {
     width: 90%;
   }
 
-  /* line 75, ../Sass/responsive.scss */
+  /* line 104, ../Sass/responsive.scss */
   .leftColTool-Al {
     width: 100%;
     float: left;
   }
 
-  /* line 80, ../Sass/responsive.scss */
+  /* line 109, ../Sass/responsive.scss */
   .rightColLang-Al {
     width: 100%;
     float: left;
   }
 
-  /* line 85, ../Sass/responsive.scss */
+  /* line 114, ../Sass/responsive.scss */
   #Al-Lang {
     margin: 0 auto;
     margin-bottom: 60px;
   }
 
-  /* line 90, ../Sass/responsive.scss */
+  /* line 119, ../Sass/responsive.scss */
   .contentContainer {
     width: 100%;
     margin-left: 2%;
@@ -87,9 +110,41 @@
     float: left;
   }
 
-  /* line 97, ../Sass/responsive.scss */
+  /* line 126, ../Sass/responsive.scss */
   .treeContainer {
     width: 100%;
     float: left;
+  }
+}
+@media screen and (min-width: 1288px) {
+  /* line 133, ../Sass/responsive.scss */
+  .content {
+    margin-left: 140px;
+    width: 800px;
+  }
+}
+@media screen and (min-width: 1650px) {
+  /* line 144, ../Sass/responsive.scss */
+  .portfolio div span a img {
+    width: 20%;
+    max-width: 20%;
+  }
+
+  /* line 155, ../Sass/responsive.scss */
+  #nirocImage ul li {
+    display: inline-block;
+  }
+  /* line 157, ../Sass/responsive.scss */
+  #nirocImage ul li img {
+    width: 700px;
+  }
+
+  /* line 166, ../Sass/responsive.scss */
+  #GG-Previews ul li {
+    display: inline-block;
+  }
+  /* line 168, ../Sass/responsive.scss */
+  #GG-Previews ul li img {
+    width: 600px;
   }
 }

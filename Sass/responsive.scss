@@ -1,5 +1,24 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 730px) {
+   .about {
+      .line {
 
+         h1 {
+            text-align: center;
+            margin-left: 0px;
+         }
+      }
+   }
+   .content {
+      margin-left: 10%;
+      margin-right: 10%;
+
+      p {
+         text-align: center;
+      }
+   }
+}
+
+@media screen and (max-width: 480px) {
    .content {
       margin-left: 5%;
       margin-right: 5%;
@@ -58,6 +77,16 @@
          }
       }
    }
+
+   .about {
+      .line {
+
+         h1 {
+            text-align: center;
+            margin-left: 0px;
+         }
+      }
+   }
 }
 
 @media screen and (max-width: 660px) {
@@ -97,5 +126,49 @@
    .treeContainer {
       width: 100%;
       float: left;
+   }
+}
+
+@media screen and (min-width: 1288px) {
+   .content {
+      margin-left: 140px;
+      width: 800px;
+   }
+}
+
+@media screen and (min-width: 1650px) {
+   .portfolio {
+      div {
+         span {
+            a {
+               img {
+                  width: 20%;
+                  max-width: 20%;
+               }
+            }
+         }
+      }
+   }
+
+   #nirocImage {
+      ul {
+         li {
+            display: inline-block;
+            img {
+               width: 700px;
+            }
+         }
+      }
+   }
+
+   #GG-Previews {
+      ul {
+         li {
+            display: inline-block;
+            img {
+               width: 600px;
+            }
+         }
+      }
    }
 }
