@@ -1,19 +1,19 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300|Roboto:400,500);
-/* line 12, ../Sass/main.scss */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600|Roboto:400,500);
+/* line 12, ../scss/main.scss */
 a {
   text-decoration: none;
   color: #ca7a0f;
 }
 
-/* line 17, ../Sass/main.scss */
+/* line 17, ../scss/main.scss */
 p {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #232323;
   font-size: 13pt;
 }
 
-/* line 24, ../Sass/main.scss */
+/* line 24, ../scss/main.scss */
 h1 {
   font-family: "roboto", sans-serif;
   text-transform: uppercase;
@@ -22,47 +22,47 @@ h1 {
   font-size: 14pt;
 }
 
-/* line 32, ../Sass/main.scss */
+/* line 32, ../scss/main.scss */
 body {
   margin: 0px;
 }
 
-/* line 36, ../Sass/main.scss */
+/* line 36, ../scss/main.scss */
 .content {
   margin-left: 11%;
   margin-right: 25%;
 }
 
-/* line 41, ../Sass/main.scss */
+/* line 41, ../scss/main.scss */
 .line {
   width: 100%;
   border-bottom: 1.8px solid #E0E0E0;
 }
-/* line 45, ../Sass/main.scss */
+/* line 45, ../scss/main.scss */
 .line a {
   text-decoration: none;
 }
-/* line 49, ../Sass/main.scss */
+/* line 49, ../scss/main.scss */
 .line h1 {
   text-align: center;
   margin-bottom: 0;
   margin-top: 13px;
 }
 
-/* line 56, ../Sass/main.scss */
+/* line 56, ../scss/main.scss */
 .footer {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-/* line 62, ../Sass/main.scss */
+/* line 62, ../scss/main.scss */
 .appStore {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 50px;
 }
-/* line 67, ../Sass/main.scss */
+/* line 67, ../scss/main.scss */
 .appStore a img {
   width: 140px;
 }
