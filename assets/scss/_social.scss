@@ -1,0 +1,76 @@
+$icon-color: white;
+$icon-hover: gray;
+
+.twitter {
+   margin: 5px;
+   width: 23px;
+   height: 23px;
+   x: 0px;
+   y: 0px;
+   enable-background: new 0 0 60 48.2;
+   padding: 3px;
+   g {
+      overflow: visible;
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      fill: $icon-color;
+   }
+}
+
+.twitter:hover {
+   cursor: pointer;
+   g {
+      fill: $icon-hover;
+   }
+}
+
+.github {
+   margin: 5px;
+   x: 0px;
+   y: 0px;
+   enable-background: new 0 0 62 60;
+   width: 23px;
+   height: 23px;
+   padding: 3px;
+
+   g path {
+      overflow: visible;
+      x: -4.5;
+      y: -4.5;
+      fill: $icon-color;
+   }
+}
+
+.github:hover {
+   cursor: pointer;
+   g path {
+      fill: $icon-hover;
+   }
+}
+
+.codepen {
+   margin: 5px;
+   x: 0px;
+   y: 0px;
+   enable-background: new 0 0 500 500;
+   width: 23px;
+   height: 23px;
+   padding: 3px;
+
+   polygon, path {
+      fill: $icon-color;
+   }
+}
+
+.codepen:hover {
+   cursor: pointer;
+   polygon, path {
+      fill: $icon-hover;
+   }
+}
+
+.social {
+   padding-top: 15px;
+   display: block;
+   text-align: center;
+}

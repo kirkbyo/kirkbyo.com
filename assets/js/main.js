@@ -1,13 +1,9 @@
-var footer = document.getElementById("footer");
-var currentYear = new Date().getFullYear();
-footer.innerHTML = "&copy; " + currentYear + " Ozzie Kirkby";
+var grid = document.getElementById("Pixel-Grid");
 
-// Google Analytics Script
+GenerateGrid({
+   rows: 8,
+   colums: 26,
+   cell_highlighted: "#fafafa"
+});
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-55860995-1', 'auto');
-ga('send', 'pageview');
+drawWord([3,2], "Ozzie");

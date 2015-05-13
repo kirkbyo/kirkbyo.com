@@ -1,0 +1,20 @@
+#Pixel-Grid { /* Grid Element */
+   /* Makes not selectable */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#Pixel-Grid div { /* Grid Row */
+   margin-top: -3px;
+}
+
+#Pixel-Grid div div { /* Grid Cell */
+   display: inline-block; /* Display Type */
+   width: 15px; /* cell Width */
+   height: 15px; /* Cell Height */
+   //border: 1px groove rgba(0, 210, 255, .5);; /* Border around the cell */
+   padding: 0;
+}

@@ -1,0 +1,165 @@
+/* line 1, ../scss/_typography.scss */
+h1 {
+  font-size: 27pt;
+  line-height: 20px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 10, ../scss/_typography.scss */
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  text-align: center;
+}
+
+/* line 1, ../scss/_PixelGrid.scss */
+#Pixel-Grid {
+  /* Grid Element */
+  /* Makes not selectable */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 10, ../scss/_PixelGrid.scss */
+#Pixel-Grid div {
+  /* Grid Row */
+  margin-top: -3px;
+}
+
+/* line 14, ../scss/_PixelGrid.scss */
+#Pixel-Grid div div {
+  /* Grid Cell */
+  display: inline-block;
+  /* Display Type */
+  width: 15px;
+  /* cell Width */
+  height: 15px;
+  /* Cell Height */
+  padding: 0;
+}
+
+/* line 4, ../scss/_social.scss */
+.twitter {
+  margin: 5px;
+  width: 23px;
+  height: 23px;
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 60 48.2;
+  padding: 3px;
+}
+/* line 12, ../scss/_social.scss */
+.twitter g {
+  overflow: visible;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: white;
+}
+
+/* line 20, ../scss/_social.scss */
+.twitter:hover {
+  cursor: pointer;
+}
+/* line 22, ../scss/_social.scss */
+.twitter:hover g {
+  fill: gray;
+}
+
+/* line 27, ../scss/_social.scss */
+.github {
+  margin: 5px;
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 62 60;
+  width: 23px;
+  height: 23px;
+  padding: 3px;
+}
+/* line 36, ../scss/_social.scss */
+.github g path {
+  overflow: visible;
+  x: -4.5;
+  y: -4.5;
+  fill: white;
+}
+
+/* line 44, ../scss/_social.scss */
+.github:hover {
+  cursor: pointer;
+}
+/* line 46, ../scss/_social.scss */
+.github:hover g path {
+  fill: gray;
+}
+
+/* line 51, ../scss/_social.scss */
+.codepen {
+  margin: 5px;
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 500 500;
+  width: 23px;
+  height: 23px;
+  padding: 3px;
+}
+/* line 60, ../scss/_social.scss */
+.codepen polygon, .codepen path {
+  fill: white;
+}
+
+/* line 65, ../scss/_social.scss */
+.codepen:hover {
+  cursor: pointer;
+}
+/* line 67, ../scss/_social.scss */
+.codepen:hover polygon, .codepen:hover path {
+  fill: gray;
+}
+
+/* line 72, ../scss/_social.scss */
+.social {
+  padding-top: 15px;
+  display: block;
+  text-align: center;
+}
+
+/* line 1, ../scss/_header.scss */
+.header {
+  background-color: #171616;
+  height: 450px;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+/* line 8, ../scss/_header.scss */
+.header div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  margin: 0;
+}
+/* line 16, ../scss/_header.scss */
+.header div h1 {
+  margin: 0;
+  color: #F7DE63;
+  text-align: center;
+}
+/* line 22, ../scss/_header.scss */
+.header div h2 {
+  color: #848484;
+}
+
+/* line 6, ../scss/home.scss */
+body {
+  background-color: #fafafa;
+  margin: 0;
+}

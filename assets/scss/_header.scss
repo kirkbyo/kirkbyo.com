@@ -1,0 +1,26 @@
+.header {
+   background-color: #171616;
+   height: 450px;
+   width: 100%;
+   margin: 0;
+   position: relative;
+
+   div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      margin: 0;
+
+      h1 {
+         margin: 0;
+         color: #F7DE63;
+         text-align: center;
+      }
+
+      h2 {
+         color: #848484;
+      }
+   }
+}
