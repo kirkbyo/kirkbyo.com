@@ -1,0 +1,56 @@
+.apple-download {
+   width: 100px;
+   margin: 20px;
+}
+
+#alpha {
+   background-image: url("../img/alpha-background.png");
+   background-size: cover;
+   margin: 0px;
+   background-color: #ccc;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 375px;
+
+
+   position: relative;
+
+   div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      img:nth-child(1) {
+         width: 72px;
+         height: 72px;
+         border-radius: 25%;
+         display: block;
+         margin: 0 auto;
+         margin-bottom: 30px;
+      }
+
+      h2, h3 {
+         text-align: center;
+         font-family: 'Lato', sans-serif;
+         color: white;
+      }
+
+      h2 {
+         font-weight: 400;
+         font-size: 18pt;
+         line-height: 2px;
+         font-weight: 300;
+      }
+
+      h3 {
+         font-weight: 300;
+         width: 75%;
+         display: block;
+         margin: 0 auto;
+         font-size: 1em;
+         word-spacing: 2px;
+      }
+   }
+}
