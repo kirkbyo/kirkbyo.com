@@ -1,6 +1,7 @@
 .apple-download {
    width: 100px;
    margin: 20px;
+   @include unselectable();
 }
 
 #alpha {
@@ -29,17 +30,18 @@
          display: block;
          margin: 0 auto;
          margin-bottom: 30px;
+         @include unselectable();
       }
 
       h2, h3 {
          text-align: center;
-         font-family: 'Lato', sans-serif;
          color: white;
+         font-family: 'Lato', sans-serif;
       }
 
       h2 {
          font-weight: 400;
-         font-size: 18pt;
+         font-size: 1.5em;
          line-height: 2px;
          font-weight: 300;
       }
@@ -50,7 +52,8 @@
          display: block;
          margin: 0 auto;
          font-size: 1em;
-         word-spacing: 2px;
+         letter-spacing: 0.5px;
+         word-spacing: 1px;
       }
    }
 }

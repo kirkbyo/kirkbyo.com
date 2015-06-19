@@ -1,11 +1,94 @@
-@import "_skeleton.scss";
+@import "_grid.scss";
+@import "_mixins.scss";
+@import "_colors.scss";
 @import "_typography.scss";
 @import "_PixelGrid.scss";
 @import "_social.scss";
 @import "_header.scss";
+@import "_footer.scss";
 @import "_apps.scss";
 
 body {
-    background-color: #fafafa;
+    background-color: #ededed;
     margin: 0;
+}
+
+footer {
+   p:last-child {
+      margin-bottom: 10px;
+      color: #B6B6B6;
+      font-size: 11pt;
+   }
+}
+
+#launch-list {
+   width: 100%;
+
+   div {
+      text-align: center;
+      padding: 15px;
+      p {
+         vertical-align: middle;
+         display: inline-block;
+         width: 30%;
+         max-width: 400px;
+         min-width: 300px;
+         margin-right: 5%;
+         line-height: 20px;
+         font-family: 'Lato', sans-serif;
+      }
+
+      form {
+         display: inline-block;
+         input {
+            background-color: white;
+            width: 220px;
+            border-radius: 5px 0 0 5px;
+            font-size: 10pt;
+            padding: 0;
+            padding-left: 15px;
+            margin: 0;
+            margin-left: -40px;
+            background-color: white;
+            border: 0;
+            height: 29px;
+            outline: 0;
+         }
+
+         button {
+            margin: 0;
+            margin-left: -5px;
+            padding: 0;
+            height: 29px;
+            width: 75px;
+            background-color: #202020;
+            color: white;
+            border: 0;
+            border-radius: 0 5px 5px 0;
+         }
+      }
+   }
+}
+
+.line {
+   @include line();
+}
+
+.stats {
+   h3 {
+      margin: 50px;
+      font-size: 4em;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      line-height: 0;
+      font-weight: 700;
+   }
+
+   h4 {
+      text-align: center;
+      font-size: 1.05em;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      color: #B6B6B6;
+      line-height: 0;
+   }
 }
