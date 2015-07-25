@@ -762,3 +762,30 @@ footer p:last-child {
   color: #B6B6B6;
   line-height: 0;
 }
+
+@media screen and (max-width: 740px) {
+  /* line 2, ../scss/_responsive.scss */
+  #outflow-Links {
+    float: both;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  /* line 9, ../scss/_responsive.scss */
+  #launch-list div p {
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 495px) {
+  /* line 16, ../scss/_responsive.scss */
+  .header div h1 {
+    line-height: 40px;
+  }
+
+  /* line 20, ../scss/_responsive.scss */
+  #launch-list div p {
+    margin-bottom: 20px;
+  }
+}
