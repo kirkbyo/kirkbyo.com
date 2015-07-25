@@ -407,87 +407,86 @@ h2 {
   padding: 0;
 }
 
-/* line 4, ../scss/_social.scss */
+/* line 5, ../scss/_social.scss */
 .twitter {
   margin: 5px;
-  width: 23px;
-  height: 23px;
+  width: 27px;
+  height: 27px;
   x: 0px;
   y: 0px;
   enable-background: new 0 0 60 48.2;
   padding: 3px;
 }
-/* line 12, ../scss/_social.scss */
+/* line 13, ../scss/_social.scss */
 .twitter g {
   overflow: visible;
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: white;
+  fill: #212121;
 }
 
-/* line 20, ../scss/_social.scss */
+/* line 21, ../scss/_social.scss */
 .twitter:hover {
   cursor: pointer;
 }
-/* line 22, ../scss/_social.scss */
+/* line 23, ../scss/_social.scss */
 .twitter:hover g {
   fill: gray;
 }
 
-/* line 27, ../scss/_social.scss */
+/* line 28, ../scss/_social.scss */
 .github {
   margin: 5px;
   x: 0px;
   y: 0px;
   enable-background: new 0 0 62 60;
-  width: 23px;
-  height: 23px;
+  width: 27px;
+  height: 27px;
   padding: 3px;
 }
-/* line 36, ../scss/_social.scss */
+/* line 37, ../scss/_social.scss */
 .github g path {
   overflow: visible;
   x: -4.5;
   y: -4.5;
-  fill: white;
+  fill: #212121;
 }
 
-/* line 44, ../scss/_social.scss */
+/* line 45, ../scss/_social.scss */
 .github:hover {
   cursor: pointer;
 }
-/* line 46, ../scss/_social.scss */
+/* line 47, ../scss/_social.scss */
 .github:hover g path {
   fill: gray;
 }
 
-/* line 51, ../scss/_social.scss */
+/* line 52, ../scss/_social.scss */
 .codepen {
   margin: 5px;
   x: 0px;
   y: 0px;
   enable-background: new 0 0 500 500;
-  width: 23px;
-  height: 23px;
+  width: 27px;
+  height: 27px;
   padding: 3px;
 }
-/* line 60, ../scss/_social.scss */
+/* line 61, ../scss/_social.scss */
 .codepen polygon, .codepen path {
-  fill: white;
+  fill: #212121;
 }
 
-/* line 65, ../scss/_social.scss */
+/* line 66, ../scss/_social.scss */
 .codepen:hover {
   cursor: pointer;
 }
-/* line 67, ../scss/_social.scss */
+/* line 68, ../scss/_social.scss */
 .codepen:hover polygon, .codepen:hover path {
   fill: gray;
 }
 
-/* line 72, ../scss/_social.scss */
+/* line 73, ../scss/_social.scss */
 .social {
-  padding-top: 15px;
   display: block;
   text-align: center;
 }
@@ -541,7 +540,7 @@ footer p {
 /* line 1, ../scss/_apps.scss */
 .apple-download {
   width: 100px;
-  margin: 20px;
+  margin: 20px 10px 5px 20px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -550,6 +549,12 @@ footer p {
 }
 
 /* line 7, ../scss/_apps.scss */
+.twitter-badge {
+  margin: 20px 20px 5px 0;
+  height: 35px;
+}
+
+/* line 12, ../scss/_apps.scss */
 #alpha {
   background-image: url("../img/alpha-background.png");
   background-size: cover;
@@ -561,14 +566,14 @@ footer p {
   height: 375px;
   position: relative;
 }
-/* line 20, ../scss/_apps.scss */
+/* line 25, ../scss/_apps.scss */
 #alpha div {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 26, ../scss/_apps.scss */
+/* line 31, ../scss/_apps.scss */
 #alpha div img:nth-child(1) {
   width: 72px;
   height: 72px;
@@ -582,20 +587,20 @@ footer p {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 36, ../scss/_apps.scss */
+/* line 41, ../scss/_apps.scss */
 #alpha div h2, #alpha div h3 {
   text-align: center;
   color: white;
   font-family: 'Lato', sans-serif;
 }
-/* line 42, ../scss/_apps.scss */
+/* line 47, ../scss/_apps.scss */
 #alpha div h2 {
   font-weight: 400;
   font-size: 1.5em;
   line-height: 2px;
   font-weight: 300;
 }
-/* line 49, ../scss/_apps.scss */
+/* line 54, ../scss/_apps.scss */
 #alpha div h3 {
   font-weight: 300;
   width: 75%;
@@ -606,6 +611,63 @@ footer p {
   word-spacing: 1px;
 }
 
+/* line 66, ../scss/_apps.scss */
+#outflow {
+  width: 100%;
+  height: 510px;
+  background-color: #60B6FC;
+  padding: 0;
+}
+
+/* line 73, ../scss/_apps.scss */
+#outflow-content {
+  padding-top: 33px;
+  width: 50%;
+  margin: 0 auto;
+}
+/* line 78, ../scss/_apps.scss */
+#outflow-content img {
+  width: 95px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 84, ../scss/_apps.scss */
+#outflow-content h3, #outflow-content h4 {
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+/* line 90, ../scss/_apps.scss */
+#outflow-content h3 {
+  font-weight: 400;
+  font-size: 20pt;
+  line-height: 0;
+}
+/* line 95, ../scss/_apps.scss */
+#outflow-content h4 {
+  line-height: 0;
+  font-weight: 300;
+  font-size: 14pt;
+}
+
+/* line 102, ../scss/_apps.scss */
+#outflow-Links {
+  display: inline-block;
+  float: left;
+}
+
+/* line 107, ../scss/_apps.scss */
+#IPhone-Mockup-outflow {
+  -webkit-clip-path: inset(0 0 46% 0);
+  clip-path: inset(0 0 46% 0);
+  text-align: center;
+  margin-top: 30px;
+}
+/* line 112, ../scss/_apps.scss */
+#IPhone-Mockup-outflow img {
+  width: 265px;
+}
+
 /* line 11, ../scss/home.scss */
 body {
   background-color: #ededed;
@@ -614,21 +676,23 @@ body {
 
 /* line 17, ../scss/home.scss */
 footer p:last-child {
-  margin-bottom: 10px;
+  padding-top: 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
   color: #B6B6B6;
-  font-size: 11pt;
+  font-size: 10pt;
 }
 
-/* line 24, ../scss/home.scss */
+/* line 26, ../scss/home.scss */
 #launch-list {
   width: 100%;
 }
-/* line 27, ../scss/home.scss */
+/* line 29, ../scss/home.scss */
 #launch-list div {
   text-align: center;
   padding: 15px;
 }
-/* line 30, ../scss/home.scss */
+/* line 32, ../scss/home.scss */
 #launch-list div p {
   vertical-align: middle;
   display: inline-block;
@@ -639,11 +703,11 @@ footer p:last-child {
   line-height: 20px;
   font-family: 'Lato', sans-serif;
 }
-/* line 41, ../scss/home.scss */
+/* line 43, ../scss/home.scss */
 #launch-list div form {
   display: inline-block;
 }
-/* line 43, ../scss/home.scss */
+/* line 45, ../scss/home.scss */
 #launch-list div form input {
   background-color: white;
   width: 220px;
@@ -658,7 +722,7 @@ footer p:last-child {
   height: 29px;
   outline: 0;
 }
-/* line 58, ../scss/home.scss */
+/* line 60, ../scss/home.scss */
 #launch-list div form button {
   margin: 0;
   margin-left: -5px;
@@ -671,7 +735,7 @@ footer p:last-child {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 73, ../scss/home.scss */
+/* line 75, ../scss/home.scss */
 .line {
   background-color: #B6B6B6;
   border-radius: 2px;
@@ -681,7 +745,7 @@ footer p:last-child {
   margin-top: 20px;
 }
 
-/* line 78, ../scss/home.scss */
+/* line 80, ../scss/home.scss */
 .stats h3 {
   margin: 50px;
   font-size: 4em;
@@ -689,7 +753,7 @@ footer p:last-child {
   line-height: 0;
   font-weight: 700;
 }
-/* line 86, ../scss/home.scss */
+/* line 88, ../scss/home.scss */
 .stats h4 {
   text-align: center;
   font-size: 1.05em;

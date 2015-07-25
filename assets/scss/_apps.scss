@@ -1,7 +1,12 @@
 .apple-download {
    width: 100px;
-   margin: 20px;
+   margin: 20px 10px 5px 20px;
    @include unselectable();
+}
+
+.twitter-badge {
+   margin: 20px 20px 5px 0;
+   height: 35px;
 }
 
 #alpha {
@@ -55,5 +60,56 @@
          letter-spacing: 0.5px;
          word-spacing: 1px;
       }
+   }
+}
+
+#outflow {
+   width: 100%;
+   height: 510px;
+   background-color: #60B6FC;
+   padding: 0;
+}
+
+#outflow-content {
+   padding-top: 33px;
+   width: 50%;
+   margin: 0 auto;
+
+   img {
+      width: 95px;
+      display: block;
+      margin: 0 auto;
+   }
+
+   h3, h4 {
+      text-align: center;
+      color: white;
+      font-family: 'Lato', sans-serif;
+   }
+
+   h3 {
+      font-weight: 400;
+      font-size: 20pt;
+      line-height: 0;
+   }
+   h4 {
+      line-height: 0;
+      font-weight: 300;
+      font-size: 14pt;
+   }
+}
+
+#outflow-Links {
+   display: inline-block;
+   float: left;
+}
+
+#IPhone-Mockup-outflow {
+   -webkit-clip-path: inset(0 0 46% 0);
+   clip-path: inset(0 0 46% 0);
+   text-align: center;
+   margin-top: 30px;
+   img {
+      width: 265px;
    }
 }
