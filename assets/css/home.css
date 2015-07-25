@@ -488,6 +488,7 @@ h2 {
 /* line 73, ../scss/_social.scss */
 .social {
   display: block;
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -690,7 +691,7 @@ footer p:last-child {
 /* line 29, ../scss/home.scss */
 #launch-list div {
   text-align: center;
-  padding: 15px;
+  display: inline-block;
 }
 /* line 32, ../scss/home.scss */
 #launch-list div p {
@@ -705,27 +706,13 @@ footer p:last-child {
 }
 /* line 43, ../scss/home.scss */
 #launch-list div form {
-  display: inline-block;
+  margin-top: 5px;
 }
-/* line 45, ../scss/home.scss */
-#launch-list div form input {
-  background-color: white;
-  width: 220px;
-  border-radius: 5px 0 0 5px;
-  font-size: 10pt;
-  padding: 0;
-  padding-left: 15px;
+
+/* line 49, ../scss/home.scss */
+input.button {
   margin: 0;
-  margin-left: -40px;
-  background-color: white;
-  border: 0;
-  height: 29px;
-  outline: 0;
-}
-/* line 60, ../scss/home.scss */
-#launch-list div form button {
-  margin: 0;
-  margin-left: -5px;
+  margin-left: -21px;
   padding: 0;
   height: 29px;
   width: 75px;
@@ -735,7 +722,27 @@ footer p:last-child {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 75, ../scss/home.scss */
+/* line 61, ../scss/home.scss */
+input {
+  background-color: white;
+  width: 190px;
+  border-radius: 5px 0 0 5px;
+  font-size: 10pt;
+  padding: 0;
+  padding-left: 15px;
+  margin: 0;
+  background-color: white;
+  border: 0;
+  height: 29px;
+  outline: 0;
+}
+
+/* line 76, ../scss/home.scss */
+#mc-embedded-subscribe-form div {
+  display: inline-block;
+}
+
+/* line 81, ../scss/home.scss */
 .line {
   background-color: #B6B6B6;
   border-radius: 2px;
@@ -745,7 +752,7 @@ footer p:last-child {
   margin-top: 20px;
 }
 
-/* line 80, ../scss/home.scss */
+/* line 86, ../scss/home.scss */
 .stats h3 {
   margin: 50px;
   font-size: 4em;
@@ -753,7 +760,7 @@ footer p:last-child {
   line-height: 0;
   font-weight: 700;
 }
-/* line 88, ../scss/home.scss */
+/* line 94, ../scss/home.scss */
 .stats h4 {
   text-align: center;
   font-size: 1.05em;
@@ -786,6 +793,8 @@ footer p:last-child {
 
   /* line 20, ../scss/_responsive.scss */
   #launch-list div p {
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 }

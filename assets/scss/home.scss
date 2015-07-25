@@ -28,7 +28,7 @@ footer {
 
    div {
       text-align: center;
-      padding: 15px;
+      display: inline-block;
       p {
          vertical-align: middle;
          display: inline-block;
@@ -41,34 +41,40 @@ footer {
       }
 
       form {
-         display: inline-block;
-         input {
-            background-color: white;
-            width: 220px;
-            border-radius: 5px 0 0 5px;
-            font-size: 10pt;
-            padding: 0;
-            padding-left: 15px;
-            margin: 0;
-            margin-left: -40px;
-            background-color: white;
-            border: 0;
-            height: 29px;
-            outline: 0;
-         }
-
-         button {
-            margin: 0;
-            margin-left: -5px;
-            padding: 0;
-            height: 29px;
-            width: 75px;
-            background-color: #202020;
-            color: white;
-            border: 0;
-            border-radius: 0 5px 5px 0;
-         }
+         margin-top: 5px;
       }
+   }
+}
+
+input.button {
+   margin: 0;
+   margin-left: -21px;
+   padding: 0;
+   height: 29px;
+   width: 75px;
+   background-color: #202020;
+   color: white;
+   border: 0;
+   border-radius: 0 5px 5px 0;
+}
+
+input {
+   background-color: white;
+   width: 190px;
+   border-radius: 5px 0 0 5px;
+   font-size: 10pt;
+   padding: 0;
+   padding-left: 15px;
+   margin: 0;
+   background-color: white;
+   border: 0;
+   height: 29px;
+   outline: 0;
+}
+
+#mc-embedded-subscribe-form {
+   div {
+      display: inline-block;
    }
 }
 
