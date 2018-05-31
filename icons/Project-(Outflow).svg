@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="127px" viewBox="0 0 127 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Outflow-App-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="28.250558%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#12A2FF" offset="0%"></stop>
+            <stop stop-color="#4767FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="iOS---Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7-Copy-3" transform="translate(-132.000000, -198.000000)">
+            <g id="Outflow-App-Icon" transform="translate(132.000000, 198.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="1" y="0" width="125" height="125" rx="62.5"></rect>
+                <path d="M63.5,126.81883 C28.4299184,126.81883 0,98.4294681 0,63.4094151 C0,28.3893622 28.4299184,0 63.5,0 C98.5700816,0 127,28.3893622 127,63.4094151 C127,98.4294681 98.5700816,126.81883 63.5,126.81883 Z M56.6144578,15.2330836 C33.068592,18.5415871 14.9534502,38.741396 14.9534502,63.1661873 C14.9534502,88.7118717 34.7694094,109.635893 59.8892172,111.446843 L52.0540461,95.7988552 C38.4768792,91.118726 28.7245345,78.2449972 28.7245345,63.0967356 C28.7245345,46.3001212 40.7147491,32.2999765 56.6144578,29.1654945 L56.6144578,15.2330836 Z M70.3159912,15.2429078 L70.3159912,29.2072974 C86.1118295,32.4226457 97.9972618,46.3736749 97.9972618,63.0967356 C97.9972618,78.1192106 88.4062057,90.90477 75.0051777,95.6805766 L67.1161037,111.436217 C92.1673994,109.555644 111.907448,88.6628947 111.907448,63.1661873 C111.907448,38.7654505 93.8279696,18.5813784 70.3159912,15.2429078 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
