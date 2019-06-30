@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/@reach/router/index.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.sort.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.function.name.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.map.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.assign.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.keys.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.constructor.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.replace.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.split.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.ends-with.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.fixed.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.link.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/web.dom.iterable.js"), require("crypto"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/debug/src/index.js"), require("fs"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/lodash/lodash.js"), require("minimatch"), require("path"), require("pify"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/@reach/router/index.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.sort.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.function.name.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.map.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.assign.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.keys.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.constructor.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.replace.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.split.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.ends-with.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.fixed.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.link.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/web.dom.iterable.js"), require("crypto"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/debug/src/index.js"), require("fs"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/lodash/lodash.js"), require("minimatch"), require("path"), require("pify"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/@reach/router/index.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.iterator.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.sort.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.function.name.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.map.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.assign.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.keys.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.to-string.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.constructor.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.replace.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.split.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.to-string.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.ends-with.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.fixed.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.iterator.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.link.js", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/web.dom.iterable.js", "crypto", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/debug/src/index.js", "fs", "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/lodash/lodash.js", "minimatch", "path", "pify", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/@reach/router/index.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.iterator.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.sort.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.function.name.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.map.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.assign.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.keys.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.to-string.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.constructor.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.replace.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.split.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.to-string.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.ends-with.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.fixed.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.iterator.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.link.js", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/web.dom.iterable.js", "crypto", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/debug/src/index.js", "fs", "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/lodash/lodash.js", "minimatch", "path", "pify", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/@reach/router/index.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.sort.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.function.name.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.map.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.assign.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.keys.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.constructor.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.replace.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.split.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.ends-with.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.fixed.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.link.js"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/web.dom.iterable.js"), require("crypto"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/debug/src/index.js"), require("fs"), require("/Users/ozziekirkbu/Documents/Personal/blog/node_modules/lodash/lodash.js"), require("minimatch"), require("path"), require("pify"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/@reach/router/index.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.sort.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.function.name.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.map.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.assign.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.keys.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.constructor.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.replace.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.split.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.to-string.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.ends-with.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.fixed.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.iterator.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.link.js"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/web.dom.iterable.js"), require("crypto"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/debug/src/index.js"), require("fs"), require("/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/lodash/lodash.js"), require("minimatch"), require("path"), require("pify"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/@reach/router/index.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.iterator.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.sort.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.function.name.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.map.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.assign.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.keys.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.to-string.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.constructor.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.replace.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.split.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.to-string.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.ends-with.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.fixed.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.iterator.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.link.js"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/web.dom.iterable.js"], root["crypto"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/debug/src/index.js"], root["fs"], root["/Users/ozziekirkbu/Documents/Personal/blog/node_modules/lodash/lodash.js"], root["minimatch"], root["path"], root["pify"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/@reach/router/index.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.iterator.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.sort.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.function.name.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.map.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.assign.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.keys.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.to-string.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.constructor.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.replace.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.split.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.to-string.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.ends-with.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.fixed.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.iterator.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.link.js"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/web.dom.iterable.js"], root["crypto"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/debug/src/index.js"], root["fs"], root["/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/lodash/lodash.js"], root["minimatch"], root["path"], root["pify"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_iterator__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_sort__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_function_name__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_map__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_assign__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_keys__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_to_string__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_constructor__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_replace__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_split__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_to_string__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_ends_with__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_fixed__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_iterator__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_link__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_web_dom_iterable__, __WEBPACK_EXTERNAL_MODULE_crypto__, __WEBPACK_EXTERNAL_MODULE_debug__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash__, __WEBPACK_EXTERNAL_MODULE_minimatch__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_pify__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -144,34 +144,36 @@ var plugins = [{
 //   },
 // ]
 
-const apis = __webpack_require__(/*! ./api-ssr-docs */ "./.cache/api-ssr-docs.js"); // Run the specified API in any plugins that have implemented it
+var apis = __webpack_require__(/*! ./api-ssr-docs */ "./.cache/api-ssr-docs.js"); // Run the specified API in any plugins that have implemented it
 
 
-module.exports = (api, args, defaultReturn, argTransform) => {
+module.exports = function (api, args, defaultReturn, argTransform) {
   if (!apis[api]) {
-    console.log(`This API doesn't exist`, api);
+    console.log("This API doesn't exist", api);
   } // Run each plugin in series.
   // eslint-disable-next-line no-undef
 
 
-  let results = plugins.map(plugin => {
+  var results = plugins.map(function (plugin) {
     if (!plugin.plugin[api]) {
       return undefined;
     }
 
-    const result = plugin.plugin[api](args, plugin.options);
+    var result = plugin.plugin[api](args, plugin.options);
 
     if (result && argTransform) {
       args = argTransform({
-        args,
-        result
+        args: args,
+        result: result
       });
     }
 
     return result;
   }); // Filter out undefined results.
 
-  results = results.filter(result => typeof result !== `undefined`);
+  results = results.filter(function (result) {
+    return typeof result !== "undefined";
+  });
 
   if (results.length > 0) {
     return results;
@@ -391,7 +393,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-blog-js","jsonName":"blog-f7a","path":"/blog/"},{"componentChunkName":"component---src-pages-books-js","jsonName":"books-b75","path":"/books/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-10-happier-3ef","path":"/books/10-happier"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-born-to-run-5c2","path":"/books/born-to-run"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-extreme-ownership-47a","path":"/books/extreme-ownership"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-five-people-in-heaven-bdf","path":"/books/five-people-in-heaven"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-last-lecture-862","path":"/books/last-lecture"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-living-with-a-seal-52e","path":"/books/living-with-a-seal"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tools-of-titans-e3b","path":"/books/tools-of-titans"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tribe-of-mentors-578","path":"/books/tribe-of-mentors"},{"componentChunkName":"component---src-pages-guides-js","jsonName":"guides-6ee","path":"/guides/"},{"componentChunkName":"component---src-pages-guides-montreal-js","jsonName":"guides-montreal-7de","path":"/guides/montreal/"},{"componentChunkName":"component---src-pages-quotes-js","jsonName":"quotes-cd2","path":"/quotes/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"templates-books-template-744","path":"/templates/booksTemplate/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","blog-extreme-ownership-076":"264/path---blog-extreme-ownership-076-727-Uh36OJZVzG8UySDEnaHtL2egc","blog-f7a":"433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8","books-10-happier-3ef":"403/path---books-10-happier-3-ef-225-nF2bHP0IeyhPZpq6daIGr4qanw","books-b75":"856/path---books-b-75-ed7-cTbRDb3qjsU3RT7uWVlB60OF0","books-born-to-run-5c2":"548/path---books-born-to-run-5-c-2-93c-TfQgq6fgzThw7p2B4EcF2UELV8","books-extreme-ownership-47a":"533/path---books-extreme-ownership-47-a-120-9MDe1oE3DG9FTWTfd2Eae8ltWQ","books-five-people-in-heaven-bdf":"604/path---books-five-people-in-heaven-bdf-d05-KyVYTNmlTsN7aPJoBIS9TguewM","books-last-lecture-862":"464/path---books-last-lecture-862-19c-bMSjWieI3z0NHnDgpU1x0HTBIZQ","books-living-with-a-seal-52e":"633/path---books-living-with-a-seal-52-e-c39-SMi61Lev9DV7lAiRL6S9jg1IwOw","books-test-5b9":"463/path---books-test-5-b-9-320-Uh36OJZVzG8UySDEnaHtL2egc","books-tools-of-titans-e3b":"229/path---books-tools-of-titans-e-3-b-e00-No2eFDzExJwVaecxJxAySIs9WU","books-tribe-of-mentors-578":"159/path---books-tribe-of-mentors-578-b4c-KX14JDxxxAJuLIIy3NOQ6DUDs4","dev-404-page-5f9":"771/path---dev-404-page-5-f-9-fab-78s6DMBcuBeTdEvTZNl4V8aMRLE","guides-6ee":"355/path---guides-6-ee-8ea-7lnnF5n1toSylDAZgJ5gbarOE","guides-montreal-7de":"331/path---guides-montreal-7-de-9cd-kYbLX4B4LpNIS0xvlxNPo6VXB0","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","quotes-cd2":"178/path---quotes-cd-2-18d-ULak0eZdKhwvDba2PLpWnu9AFJk","sq--src-components-default-layout-js":856328897,"sq--src-components-image-js":2011440971,"sq--src-components-seo-js":2417117884,"sq--src-pages-books-js":2206549529,"sq--src-pages-guides-js":3018761724,"sq--src-pages-guides-montreal-js":866523859,"sq--src-pages-quotes-js":1471187004,"templates-books-template-744":"944/path---templates-books-template-744-adf-dIU9JjTDXOjtNI2ybkqTmp7X9I"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-blog-js","jsonName":"blog-f7a","path":"/blog/"},{"componentChunkName":"component---src-pages-books-js","jsonName":"books-b75","path":"/books/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-10-happier-3ef","path":"/books/10-happier"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-born-to-run-5c2","path":"/books/born-to-run"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-extreme-ownership-47a","path":"/books/extreme-ownership"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-five-people-in-heaven-bdf","path":"/books/five-people-in-heaven"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-last-lecture-862","path":"/books/last-lecture"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-living-with-a-seal-52e","path":"/books/living-with-a-seal"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tools-of-titans-e3b","path":"/books/tools-of-titans"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tribe-of-mentors-578","path":"/books/tribe-of-mentors"},{"componentChunkName":"component---src-pages-guides-js","jsonName":"guides-6ee","path":"/guides/"},{"componentChunkName":"component---src-pages-guides-montreal-js","jsonName":"guides-montreal-7de","path":"/guides/montreal/"},{"componentChunkName":"component---src-pages-quotes-js","jsonName":"quotes-cd2","path":"/quotes/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"templates-books-template-744","path":"/templates/booksTemplate/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","blog-f7a":"433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8","books-10-happier-3ef":"403/path---books-10-happier-3-ef-225-nF2bHP0IeyhPZpq6daIGr4qanw","books-b75":"487/path---books-b-75-ed7-6cEFWzeQ7yli9QxZmzIoUPos","books-born-to-run-5c2":"548/path---books-born-to-run-5-c-2-93c-TfQgq6fgzThw7p2B4EcF2UELV8","books-extreme-ownership-47a":"533/path---books-extreme-ownership-47-a-120-9MDe1oE3DG9FTWTfd2Eae8ltWQ","books-five-people-in-heaven-bdf":"604/path---books-five-people-in-heaven-bdf-d05-KyVYTNmlTsN7aPJoBIS9TguewM","books-last-lecture-862":"464/path---books-last-lecture-862-19c-bMSjWieI3z0NHnDgpU1x0HTBIZQ","books-living-with-a-seal-52e":"633/path---books-living-with-a-seal-52-e-c39-SMi61Lev9DV7lAiRL6S9jg1IwOw","books-tools-of-titans-e3b":"229/path---books-tools-of-titans-e-3-b-e00-No2eFDzExJwVaecxJxAySIs9WU","books-tribe-of-mentors-578":"159/path---books-tribe-of-mentors-578-b4c-KX14JDxxxAJuLIIy3NOQ6DUDs4","dev-404-page-5f9":"669/path---dev-404-page-5-f-9-fab-jYYzDxoRs2rRdljGMrctcj0s","guides-6ee":"355/path---guides-6-ee-8ea-7lnnF5n1toSylDAZgJ5gbarOE","guides-montreal-7de":"331/path---guides-montreal-7-de-9cd-kYbLX4B4LpNIS0xvlxNPo6VXB0","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","quotes-cd2":"178/path---quotes-cd-2-18d-ULak0eZdKhwvDba2PLpWnu9AFJk","sq--src-components-default-layout-js":856328897,"sq--src-components-image-js":2011440971,"sq--src-components-seo-js":2417117884,"sq--src-pages-books-js":2206549529,"sq--src-pages-guides-js":3018761724,"sq--src-pages-guides-montreal-js":866523859,"sq--src-pages-quotes-js":1471187004,"templates-books-template-744":"944/path---templates-books-template-744-adf-dIU9JjTDXOjtNI2ybkqTmp7X9I"}};
 
 /***/ }),
 
@@ -15110,7 +15112,7 @@ module.exports = createContentDigest;
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, bin, bugs, dependencies, description, devDependencies, engines, files, gitHead, homepage, keywords, license, main, module, name, peerDependencies, repository, resolutions, scripts, types, version, yargs, default */
 /***/ (function(module) {
 
-module.exports = {"_args":[["gatsby@2.8.6","/Users/ozziekirkbu/Documents/Personal/blog2"]],"_from":"gatsby@2.8.6","_id":"gatsby@2.8.6","_inBundle":false,"_integrity":"sha512-se7mFL63dJ3L9fl6YB8FwEHA6EHrU/z+p4yTzZvEOqseXrGMYoT+xCWvX9lgpTF7zEIb2TTgyfbN69ww+Je3mA==","_location":"/gatsby","_phantomChildren":{"@babel/code-frame":"7.0.0","@babel/runtime":"7.3.4","bluebird":"3.5.3","chalk":"2.4.2","ci-info":"2.0.0","clipboardy":"1.2.3","common-tags":"1.8.0","convert-hrtime":"2.0.0","core-js":"2.6.5","cross-spawn":"5.1.0","decamelize":"1.2.0","dot-prop":"4.2.0","envinfo":"5.12.1","fs-exists-cached":"1.0.0","gatsby-telemetry":"1.0.11","get-caller-file":"1.0.3","get-stream":"3.0.0","graceful-fs":"4.1.15","hosted-git-info":"2.7.1","ink":"2.2.0","ink-spinner":"3.0.1","is-stream":"1.1.0","is-valid-path":"0.1.1","jsonfile":"4.0.0","lodash":"4.17.11","map-age-cleaner":"0.1.3","meant":"1.0.1","nice-try":"1.0.5","npm-run-path":"2.0.2","object.entries":"1.1.0","opentracing":"0.14.3","p-finally":"1.0.0","p-is-promise":"2.1.0","path-exists":"3.0.0","path-key":"2.0.1","pretty-error":"2.1.1","prompts":"2.1.0","pump":"3.0.0","react":"16.8.6","require-directory":"2.1.1","require-main-filename":"1.0.1","resolve-cwd":"2.0.0","semver":"5.7.0","set-blocking":"2.0.0","shebang-command":"1.2.0","signal-exit":"3.0.2","source-map":"0.5.7","stack-trace":"0.0.10","string-width":"2.1.1","strip-eof":"1.0.0","unique-string":"1.0.0","universalify":"0.1.2","update-notifier":"2.5.0","uuid":"3.3.2","which":"1.3.1","which-module":"2.0.0","wrap-ansi":"2.1.0","write-file-atomic":"2.4.3","xdg-basedir":"3.0.0","y18n":"3.2.1","yurnalist":"1.0.5"},"_requested":{"type":"version","registry":true,"raw":"gatsby@2.8.6","name":"gatsby","escapedName":"gatsby","rawSpec":"2.8.6","saveSpec":null,"fetchSpec":"2.8.6"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/gatsby/-/gatsby-2.8.6.tgz","_spec":"2.8.6","_where":"/Users/ozziekirkbu/Documents/Personal/blog2","author":{"name":"Kyle Mathews","email":"mathews.kyle@gmail.com"},"bin":{"gatsby":"./dist/bin/gatsby.js"},"bugs":{"url":"https://github.com/gatsbyjs/gatsby/issues"},"dependencies":{"@babel/code-frame":"^7.0.0","@babel/core":"^7.0.0","@babel/parser":"^7.0.0","@babel/polyfill":"^7.0.0","@babel/runtime":"^7.0.0","@babel/traverse":"^7.0.0","@gatsbyjs/relay-compiler":"2.0.0-printer-fix.2","@mikaelkristiansson/domready":"^1.0.9","@pieh/friendly-errors-webpack-plugin":"1.7.0-chalk-2","@reach/router":"^1.1.1","@stefanprobst/lokijs":"^1.5.6-b","address":"1.0.3","autoprefixer":"^9.6.0","babel-core":"7.0.0-bridge.0","babel-eslint":"^9.0.0","babel-loader":"^8.0.0","babel-plugin-add-module-exports":"^0.2.1","babel-plugin-dynamic-import-node":"^1.2.0","babel-plugin-remove-graphql-queries":"^2.6.3","babel-preset-gatsby":"^0.1.11","better-opn":"0.1.4","better-queue":"^3.8.6","bluebird":"^3.5.0","browserslist":"3.2.8","cache-manager":"^2.9.0","cache-manager-fs-hash":"^0.0.6","chalk":"^2.3.2","chokidar":"2.1.2","common-tags":"^1.4.0","compression":"^1.7.3","convert-hrtime":"^2.0.0","copyfiles":"^1.2.0","core-js":"^2.5.0","cors":"^2.8.5","css-loader":"^1.0.0","debug":"^3.1.0","del":"^3.0.0","detect-port":"^1.2.1","devcert-san":"^0.3.3","dotenv":"^4.0.0","eslint":"^5.6.0","eslint-config-react-app":"^3.0.0","eslint-loader":"^2.1.0","eslint-plugin-flowtype":"^2.46.1","eslint-plugin-graphql":"^3.0.3","eslint-plugin-import":"^2.9.0","eslint-plugin-jsx-a11y":"^6.0.3","eslint-plugin-react":"^7.8.2","event-source-polyfill":"^1.0.5","express":"^4.16.3","express-graphql":"^0.7.1","fast-levenshtein":"~2.0.4","file-loader":"^1.1.11","flat":"^4.0.0","fs-exists-cached":"1.0.0","fs-extra":"^5.0.0","gatsby-cli":"^2.6.5","gatsby-graphiql-explorer":"^0.1.2","gatsby-link":"^2.1.1","gatsby-plugin-page-creator":"^2.0.13","gatsby-react-router-scroll":"^2.0.7","gatsby-telemetry":"^1.0.11","glob":"^7.1.1","got":"8.0.0","graphql":"^14.1.1","graphql-compose":"^6.3.2","graphql-playground-middleware-express":"^1.7.10","hash-mod":"^0.0.5","invariant":"^2.2.4","is-relative":"^1.0.0","is-relative-url":"^2.0.0","is-wsl":"^1.1.0","jest-worker":"^23.2.0","joi":"^14.0.0","json-loader":"^0.5.7","json-stringify-safe":"^5.0.1","kebab-hash":"^0.1.2","lodash":"^4.17.10","md5":"^2.2.1","md5-file":"^3.1.1","mime":"^2.2.0","mini-css-extract-plugin":"^0.4.0","mitt":"^1.1.2","mkdirp":"^0.5.1","moment":"^2.21.0","name-all-modules-plugin":"^1.0.1","normalize-path":"^2.1.1","null-loader":"^0.1.1","opentracing":"^0.14.3","optimize-css-assets-webpack-plugin":"^5.0.1","parseurl":"^1.3.2","physical-cpu-count":"^2.0.0","pnp-webpack-plugin":"^1.4.1","postcss-flexbugs-fixes":"^3.0.0","postcss-loader":"^2.1.3","prop-types":"^15.6.1","raw-loader":"^0.5.1","react-dev-utils":"^4.2.1","react-error-overlay":"^3.0.0","react-hot-loader":"^4.8.4","redux":"^4.0.0","redux-thunk":"^2.3.0","semver":"^5.6.0","shallow-compare":"^1.2.2","sift":"^5.1.0","signal-exit":"^3.0.2","slash":"^1.0.0","socket.io":"^2.0.3","stack-trace":"^0.0.10","string-similarity":"^1.2.0","style-loader":"^0.21.0","terser-webpack-plugin":"^1.2.2","true-case-path":"^1.0.3","type-of":"^2.0.1","url-loader":"^1.0.1","util.promisify":"^1.0.0","uuid":"^3.1.0","v8-compile-cache":"^1.1.0","webpack":"~4.28.4","webpack-dev-middleware":"^3.0.1","webpack-dev-server":"^3.1.14","webpack-hot-middleware":"^2.21.0","webpack-merge":"^4.1.0","webpack-stats-plugin":"^0.1.5","xstate":"^4.3.2","yaml-loader":"^0.5.0"},"description":"Blazing fast modern site generator for React","devDependencies":{"@babel/cli":"^7.0.0","@babel/runtime":"^7.0.0","babel-preset-gatsby-package":"^0.1.4","cross-env":"^5.1.4","react":"^16.4.2","react-dom":"^16.4.2","rimraf":"^2.6.1"},"engines":{"node":">=6.0.0"},"files":["cache-dir","dist","graphql.js","index.d.ts","utils.js"],"gitHead":"08042ac0fae82a5e76f4f2c238d1134092f723fd","homepage":"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby#readme","keywords":["blog","generator","jekyll","markdown","react","ssg","website"],"license":"MIT","main":"cache-dir/commonjs/gatsby-browser-entry.js","module":"cache-dir/gatsby-browser-entry.js","name":"gatsby","peerDependencies":{"react":"^16.4.2","react-dom":"^16.4.2"},"repository":{"type":"git","url":"git+https://github.com/gatsbyjs/gatsby.git"},"resolutions":{"graphql":"^14.1.1"},"scripts":{"build":"npm run build:src && npm run build:internal-plugins && npm run build:rawfiles && npm run build:cjs","build:cjs":"babel cache-dir --out-dir cache-dir/commonjs --ignore **/__tests__","build:internal-plugins":"copyfiles -u 1 src/internal-plugins/**/package.json dist","build:rawfiles":"copyfiles -u 1 src/internal-plugins/**/raw_* dist","build:src":"babel src --out-dir dist --source-maps --verbose --ignore **/gatsby-cli.js,src/internal-plugins/dev-404-page/raw_dev-404-page.js,**/__tests__","clean-test-bundles":"find test/ -type f -name bundle.js* -exec rm -rf {} +","prebuild":"rimraf dist && rimraf cache-dir/commonjs","prepare":"cross-env NODE_ENV=production npm run build","watch":"rimraf dist && mkdir dist && npm run build:internal-plugins && npm run build:rawfiles && npm run build:src -- --watch"},"types":"index.d.ts","version":"2.8.6","yargs":{"boolean-negation":false}};
+module.exports = {"_args":[["gatsby@2.8.6","/Users/ozziekirkbu/Documents/Personal/central-filing"]],"_from":"gatsby@2.8.6","_id":"gatsby@2.8.6","_inBundle":false,"_integrity":"sha512-se7mFL63dJ3L9fl6YB8FwEHA6EHrU/z+p4yTzZvEOqseXrGMYoT+xCWvX9lgpTF7zEIb2TTgyfbN69ww+Je3mA==","_location":"/gatsby","_phantomChildren":{"@babel/code-frame":"7.0.0","@babel/runtime":"7.3.4","bluebird":"3.5.3","chalk":"2.4.2","ci-info":"2.0.0","clipboardy":"1.2.3","common-tags":"1.8.0","convert-hrtime":"2.0.0","core-js":"2.6.5","cross-spawn":"5.1.0","decamelize":"1.2.0","dot-prop":"4.2.0","envinfo":"5.12.1","fs-exists-cached":"1.0.0","gatsby-telemetry":"1.0.11","get-caller-file":"1.0.3","get-stream":"3.0.0","graceful-fs":"4.1.15","hosted-git-info":"2.7.1","ink":"2.2.0","ink-spinner":"3.0.1","is-stream":"1.1.0","is-valid-path":"0.1.1","jsonfile":"4.0.0","lodash":"4.17.11","map-age-cleaner":"0.1.3","meant":"1.0.1","nice-try":"1.0.5","npm-run-path":"2.0.2","object.entries":"1.1.0","opentracing":"0.14.3","p-finally":"1.0.0","p-is-promise":"2.1.0","path-exists":"3.0.0","path-key":"2.0.1","pretty-error":"2.1.1","prompts":"2.1.0","pump":"3.0.0","react":"16.8.6","require-directory":"2.1.1","require-main-filename":"1.0.1","resolve-cwd":"2.0.0","semver":"5.7.0","set-blocking":"2.0.0","shebang-command":"1.2.0","signal-exit":"3.0.2","source-map":"0.5.7","stack-trace":"0.0.10","string-width":"2.1.1","strip-eof":"1.0.0","unique-string":"1.0.0","universalify":"0.1.2","update-notifier":"2.5.0","uuid":"3.3.2","which":"1.3.1","which-module":"2.0.0","wrap-ansi":"2.1.0","write-file-atomic":"2.4.3","xdg-basedir":"3.0.0","y18n":"3.2.1","yurnalist":"1.0.5"},"_requested":{"type":"version","registry":true,"raw":"gatsby@2.8.6","name":"gatsby","escapedName":"gatsby","rawSpec":"2.8.6","saveSpec":null,"fetchSpec":"2.8.6"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/gatsby/-/gatsby-2.8.6.tgz","_spec":"2.8.6","_where":"/Users/ozziekirkbu/Documents/Personal/central-filing","author":{"name":"Kyle Mathews","email":"mathews.kyle@gmail.com"},"bin":{"gatsby":"./dist/bin/gatsby.js"},"bugs":{"url":"https://github.com/gatsbyjs/gatsby/issues"},"dependencies":{"@babel/code-frame":"^7.0.0","@babel/core":"^7.0.0","@babel/parser":"^7.0.0","@babel/polyfill":"^7.0.0","@babel/runtime":"^7.0.0","@babel/traverse":"^7.0.0","@gatsbyjs/relay-compiler":"2.0.0-printer-fix.2","@mikaelkristiansson/domready":"^1.0.9","@pieh/friendly-errors-webpack-plugin":"1.7.0-chalk-2","@reach/router":"^1.1.1","@stefanprobst/lokijs":"^1.5.6-b","address":"1.0.3","autoprefixer":"^9.6.0","babel-core":"7.0.0-bridge.0","babel-eslint":"^9.0.0","babel-loader":"^8.0.0","babel-plugin-add-module-exports":"^0.2.1","babel-plugin-dynamic-import-node":"^1.2.0","babel-plugin-remove-graphql-queries":"^2.6.3","babel-preset-gatsby":"^0.1.11","better-opn":"0.1.4","better-queue":"^3.8.6","bluebird":"^3.5.0","browserslist":"3.2.8","cache-manager":"^2.9.0","cache-manager-fs-hash":"^0.0.6","chalk":"^2.3.2","chokidar":"2.1.2","common-tags":"^1.4.0","compression":"^1.7.3","convert-hrtime":"^2.0.0","copyfiles":"^1.2.0","core-js":"^2.5.0","cors":"^2.8.5","css-loader":"^1.0.0","debug":"^3.1.0","del":"^3.0.0","detect-port":"^1.2.1","devcert-san":"^0.3.3","dotenv":"^4.0.0","eslint":"^5.6.0","eslint-config-react-app":"^3.0.0","eslint-loader":"^2.1.0","eslint-plugin-flowtype":"^2.46.1","eslint-plugin-graphql":"^3.0.3","eslint-plugin-import":"^2.9.0","eslint-plugin-jsx-a11y":"^6.0.3","eslint-plugin-react":"^7.8.2","event-source-polyfill":"^1.0.5","express":"^4.16.3","express-graphql":"^0.7.1","fast-levenshtein":"~2.0.4","file-loader":"^1.1.11","flat":"^4.0.0","fs-exists-cached":"1.0.0","fs-extra":"^5.0.0","gatsby-cli":"^2.6.5","gatsby-graphiql-explorer":"^0.1.2","gatsby-link":"^2.1.1","gatsby-plugin-page-creator":"^2.0.13","gatsby-react-router-scroll":"^2.0.7","gatsby-telemetry":"^1.0.11","glob":"^7.1.1","got":"8.0.0","graphql":"^14.1.1","graphql-compose":"^6.3.2","graphql-playground-middleware-express":"^1.7.10","hash-mod":"^0.0.5","invariant":"^2.2.4","is-relative":"^1.0.0","is-relative-url":"^2.0.0","is-wsl":"^1.1.0","jest-worker":"^23.2.0","joi":"^14.0.0","json-loader":"^0.5.7","json-stringify-safe":"^5.0.1","kebab-hash":"^0.1.2","lodash":"^4.17.10","md5":"^2.2.1","md5-file":"^3.1.1","mime":"^2.2.0","mini-css-extract-plugin":"^0.4.0","mitt":"^1.1.2","mkdirp":"^0.5.1","moment":"^2.21.0","name-all-modules-plugin":"^1.0.1","normalize-path":"^2.1.1","null-loader":"^0.1.1","opentracing":"^0.14.3","optimize-css-assets-webpack-plugin":"^5.0.1","parseurl":"^1.3.2","physical-cpu-count":"^2.0.0","pnp-webpack-plugin":"^1.4.1","postcss-flexbugs-fixes":"^3.0.0","postcss-loader":"^2.1.3","prop-types":"^15.6.1","raw-loader":"^0.5.1","react-dev-utils":"^4.2.1","react-error-overlay":"^3.0.0","react-hot-loader":"^4.8.4","redux":"^4.0.0","redux-thunk":"^2.3.0","semver":"^5.6.0","shallow-compare":"^1.2.2","sift":"^5.1.0","signal-exit":"^3.0.2","slash":"^1.0.0","socket.io":"^2.0.3","stack-trace":"^0.0.10","string-similarity":"^1.2.0","style-loader":"^0.21.0","terser-webpack-plugin":"^1.2.2","true-case-path":"^1.0.3","type-of":"^2.0.1","url-loader":"^1.0.1","util.promisify":"^1.0.0","uuid":"^3.1.0","v8-compile-cache":"^1.1.0","webpack":"~4.28.4","webpack-dev-middleware":"^3.0.1","webpack-dev-server":"^3.1.14","webpack-hot-middleware":"^2.21.0","webpack-merge":"^4.1.0","webpack-stats-plugin":"^0.1.5","xstate":"^4.3.2","yaml-loader":"^0.5.0"},"description":"Blazing fast modern site generator for React","devDependencies":{"@babel/cli":"^7.0.0","@babel/runtime":"^7.0.0","babel-preset-gatsby-package":"^0.1.4","cross-env":"^5.1.4","react":"^16.4.2","react-dom":"^16.4.2","rimraf":"^2.6.1"},"engines":{"node":">=6.0.0"},"files":["cache-dir","dist","graphql.js","index.d.ts","utils.js"],"gitHead":"08042ac0fae82a5e76f4f2c238d1134092f723fd","homepage":"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby#readme","keywords":["blog","generator","jekyll","markdown","react","ssg","website"],"license":"MIT","main":"cache-dir/commonjs/gatsby-browser-entry.js","module":"cache-dir/gatsby-browser-entry.js","name":"gatsby","peerDependencies":{"react":"^16.4.2","react-dom":"^16.4.2"},"repository":{"type":"git","url":"git+https://github.com/gatsbyjs/gatsby.git"},"resolutions":{"graphql":"^14.1.1"},"scripts":{"build":"npm run build:src && npm run build:internal-plugins && npm run build:rawfiles && npm run build:cjs","build:cjs":"babel cache-dir --out-dir cache-dir/commonjs --ignore **/__tests__","build:internal-plugins":"copyfiles -u 1 src/internal-plugins/**/package.json dist","build:rawfiles":"copyfiles -u 1 src/internal-plugins/**/raw_* dist","build:src":"babel src --out-dir dist --source-maps --verbose --ignore **/gatsby-cli.js,src/internal-plugins/dev-404-page/raw_dev-404-page.js,**/__tests__","clean-test-bundles":"find test/ -type f -name bundle.js* -exec rm -rf {} +","prebuild":"rimraf dist && rimraf cache-dir/commonjs","prepare":"cross-env NODE_ENV=production npm run build","watch":"rimraf dist && mkdir dist && npm run build:internal-plugins && npm run build:rawfiles && npm run build:src -- --watch"},"types":"index.d.ts","version":"2.8.6","yargs":{"boolean-negation":false}};
 
 /***/ }),
 
@@ -37747,7 +37749,7 @@ module.exports = {"data":{"allQuotesJson":{"edges":[{"node":{"emoji":"🗻","nam
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Born to Run","path":"/books/born-to-run"}}},{"node":{"frontmatter":{"title":"10% Happier","path":"/books/10-happier"}}},{"node":{"frontmatter":{"title":"Extreme Ownership","path":"/books/extreme-ownership"}}},{"node":{"frontmatter":{"title":"The Five People You Meet in Heaven","path":"/books/five-people-in-heaven"}}},{"node":{"frontmatter":{"title":"Living with a SEAL","path":"/books/living-with-a-seal"}}},{"node":{"frontmatter":{"title":"Tools of Titans","path":"/books/tools-of-titans"}}},{"node":{"frontmatter":{"title":"The Last Lecture","path":"/books/last-lecture"}}},{"node":{"frontmatter":{"title":"Tribe of Mentors","path":"/books/tribe-of-mentors"}}}]}}};
+module.exports = {"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"10% Happier","path":"/books/10-happier"}}},{"node":{"frontmatter":{"title":"Born to Run","path":"/books/born-to-run"}}},{"node":{"frontmatter":{"title":"The Last Lecture","path":"/books/last-lecture"}}},{"node":{"frontmatter":{"title":"The Five People You Meet in Heaven","path":"/books/five-people-in-heaven"}}},{"node":{"frontmatter":{"title":"Living with a SEAL","path":"/books/living-with-a-seal"}}},{"node":{"frontmatter":{"title":"Tools of Titans","path":"/books/tools-of-titans"}}},{"node":{"frontmatter":{"title":"Tribe of Mentors","path":"/books/tribe-of-mentors"}}},{"node":{"frontmatter":{"title":"Extreme Ownership","path":"/books/extreme-ownership"}}}]}}};
 
 /***/ }),
 
@@ -38070,11 +38072,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-simple-flex-grid */ "./node_modules/react-simple-flex-grid/lib/index.js");
-/* harmony import */ var react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/quote.module.css */ "./src/components/styles/quote.module.css");
-/* harmony import */ var _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_quote_module_css__WEBPACK_IMPORTED_MODULE_3__);
-
+/* harmony import */ var _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/quote.module.css */ "./src/components/styles/quote.module.css");
+/* harmony import */ var _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_quote_module_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -38084,14 +38083,14 @@ var Quote = function Quote(_ref) {
       children = _ref.children,
       id = _ref.id;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.container
+    className: _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.container
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#" + id
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     id: id,
-    className: _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.quote
+    className: _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.quote
   }, children), author && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.author
+    className: _styles_quote_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.author
   }, author)));
 };
 
@@ -38627,13 +38626,8 @@ var _public_static_d_3018761724_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _utils_array__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/array */ "./src/utils/array.js");
-/* harmony import */ var _components_default_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/default-layout */ "./src/components/default-layout.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-/* harmony import */ var react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-simple-flex-grid */ "./node_modules/react-simple-flex-grid/lib/index.js");
-/* harmony import */ var react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_7__);
-
-
+/* harmony import */ var _components_default_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/default-layout */ "./src/components/default-layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
 
 
 
@@ -38642,9 +38636,9 @@ var _public_static_d_3018761724_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*
 
 
 var Guides = function Guides() {
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_default_layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_default_layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "article"
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_5__["default"], {
     title: "Guides"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, "Guides"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "A breakdown of places I have lived / traveled"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["StaticQuery"], {
     query: guidesQuery,
@@ -38780,11 +38774,11 @@ var IndexPage = function IndexPage() {
   }, "About me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hey there, I\u2019m Ozzie ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     role: "img",
     "aria-label": "wave"
-  }, "\uD83D\uDC4B"), " I\u2019m a Mechanical Engineering student at Queen\u2019s University. I\u2019ve interned at ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "\uD83D\uDC4B"), " I\u2019m a Mechanical Engineering student at Queen\u2019s University. In the past, I\u2019ve interned at ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "lk-green",
     target: "_bank",
     href: "https://www.shopify.com/"
-  }, "Shopify"), " for both iOS and Software Engineering. At the moment, I am interested in Mechatronics, iOS development, and backend services. Otherwise, you\u2019ll find me running or ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "Shopify"), " for both iOS and Software Engineering. Right now, I am interested in learning about Mechatronics, data, backend services, and iOS development. Otherwise, you\u2019ll find me running or ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "lk-blue",
     href: "books"
   }, "reading"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -39085,9 +39079,9 @@ function idify(str) {
 /***/ }),
 
 /***/ "@reach/router":
-/*!*************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/@reach/router/index.js" ***!
-  \*************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/@reach/router/index.js" ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39107,9 +39101,9 @@ module.exports = require("assert");
 /***/ }),
 
 /***/ "core-js/modules/es6.array.iterator":
-/*!****************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.iterator.js" ***!
-  \****************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.iterator.js" ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39118,9 +39112,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_iterator__;
 /***/ }),
 
 /***/ "core-js/modules/es6.array.sort":
-/*!************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.array.sort.js" ***!
-  \************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.array.sort.js" ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39129,9 +39123,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_sort__;
 /***/ }),
 
 /***/ "core-js/modules/es6.function.name":
-/*!***************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.function.name.js" ***!
-  \***************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.function.name.js" ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39140,9 +39134,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_function_name__;
 /***/ }),
 
 /***/ "core-js/modules/es6.map":
-/*!*****************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.map.js" ***!
-  \*****************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.map.js" ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39151,9 +39145,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_map__;
 /***/ }),
 
 /***/ "core-js/modules/es6.object.assign":
-/*!***************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.assign.js" ***!
-  \***************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.assign.js" ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39162,9 +39156,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_assign__;
 /***/ }),
 
 /***/ "core-js/modules/es6.object.keys":
-/*!*************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.keys.js" ***!
-  \*************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.keys.js" ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39173,9 +39167,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_keys__;
 /***/ }),
 
 /***/ "core-js/modules/es6.object.to-string":
-/*!******************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.object.to-string.js" ***!
-  \******************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.object.to-string.js" ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39184,9 +39178,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_to_string_
 /***/ }),
 
 /***/ "core-js/modules/es6.regexp.constructor":
-/*!********************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.constructor.js" ***!
-  \********************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.constructor.js" ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39195,9 +39189,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_constructo
 /***/ }),
 
 /***/ "core-js/modules/es6.regexp.replace":
-/*!****************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.replace.js" ***!
-  \****************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.replace.js" ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39206,9 +39200,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_replace__;
 /***/ }),
 
 /***/ "core-js/modules/es6.regexp.split":
-/*!**************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.split.js" ***!
-  \**************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.split.js" ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39217,9 +39211,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_split__;
 /***/ }),
 
 /***/ "core-js/modules/es6.regexp.to-string":
-/*!******************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.regexp.to-string.js" ***!
-  \******************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.regexp.to-string.js" ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39228,9 +39222,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_to_string_
 /***/ }),
 
 /***/ "core-js/modules/es6.string.ends-with":
-/*!******************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.ends-with.js" ***!
-  \******************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.ends-with.js" ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39239,9 +39233,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_ends_with_
 /***/ }),
 
 /***/ "core-js/modules/es6.string.fixed":
-/*!**************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.fixed.js" ***!
-  \**************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.fixed.js" ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39250,9 +39244,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_fixed__;
 /***/ }),
 
 /***/ "core-js/modules/es6.string.iterator":
-/*!*****************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.iterator.js" ***!
-  \*****************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.iterator.js" ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39261,9 +39255,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_iterator__
 /***/ }),
 
 /***/ "core-js/modules/es6.string.link":
-/*!*************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/es6.string.link.js" ***!
-  \*************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/es6.string.link.js" ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39272,9 +39266,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_link__;
 /***/ }),
 
 /***/ "core-js/modules/web.dom.iterable":
-/*!**************************************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/core-js/modules/web.dom.iterable.js" ***!
-  \**************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/core-js/modules/web.dom.iterable.js" ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39294,9 +39288,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_crypto__;
 /***/ }),
 
 /***/ "debug":
-/*!*********************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/debug/src/index.js" ***!
-  \*********************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/debug/src/index.js" ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39327,9 +39321,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash":
-/*!*******************************************************************************************!*\
-  !*** external "/Users/ozziekirkbu/Documents/Personal/blog/node_modules/lodash/lodash.js" ***!
-  \*******************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** external "/Users/ozziekirkbu/Documents/Personal/central-filing/node_modules/lodash/lodash.js" ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
