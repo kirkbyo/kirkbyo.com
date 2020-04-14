@@ -38941,15 +38941,6 @@ var IndexPage = function IndexPage() {
     description: "A breakdown of places I have lived / traveled",
     emoji: "\uD83D\uDDFA",
     link: "guides"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_5__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    xs: 12,
-    sm: 6,
-    md: 4
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_emoji_heading_stack__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: "Quotes",
-    description: "Quotes that I have enjoyed",
-    emoji: "\uD83D\uDCAC",
-    link: "quotes"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "inline-stack social-icons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_social_icons__WEBPACK_IMPORTED_MODULE_6__["Twitter"], {
