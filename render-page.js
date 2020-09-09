@@ -393,7 +393,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-blog-js","jsonName":"blog-f7a","path":"/blog/"},{"componentChunkName":"component---src-pages-books-js","jsonName":"books-b75","path":"/books/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-10-happier-3ef","path":"/books/10-happier"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-born-to-run-5c2","path":"/books/born-to-run"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-dignity-c03","path":"/books/dignity"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-extreme-ownership-47a","path":"/books/extreme-ownership"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-five-people-in-heaven-bdf","path":"/books/five-people-in-heaven"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-last-lecture-862","path":"/books/last-lecture"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-living-with-a-seal-52e","path":"/books/living-with-a-seal"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-subtle-art-of-not-giving-a-fuck-d03","path":"/books/subtle-art-of-not-giving-a-fuck"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tools-of-titans-e3b","path":"/books/tools-of-titans"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tribe-of-mentors-578","path":"/books/tribe-of-mentors"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-vagabonding-1f3","path":"/books/vagabonding"},{"componentChunkName":"component---src-pages-guides-js","jsonName":"guides-6ee","path":"/guides/"},{"componentChunkName":"component---src-pages-guides-montreal-js","jsonName":"guides-montreal-7de","path":"/guides/montreal/"},{"componentChunkName":"component---src-pages-guides-poland-ukraine-2019-js","jsonName":"guides-poland-ukraine-2019-b58","path":"/guides/poland_ukraine_2019/"},{"componentChunkName":"component---src-pages-quotes-js","jsonName":"quotes-cd2","path":"/quotes/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"templates-books-template-744","path":"/templates/booksTemplate/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","blog-f7a":"433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8","books-10-happier-3ef":"403/path---books-10-happier-3-ef-225-nF2bHP0IeyhPZpq6daIGr4qanw","books-b75":"419/path---books-b-75-ed7-z9DxEAGAclQFbI9JVKlzrRssLA","books-born-to-run-5c2":"548/path---books-born-to-run-5-c-2-93c-TfQgq6fgzThw7p2B4EcF2UELV8","books-dignity-c03":"371/path---books-dignity-c-03-3c7-L0k4cU6wwnxC3iFUdt9jxexQ","books-extreme-ownership-47a":"533/path---books-extreme-ownership-47-a-120-9MDe1oE3DG9FTWTfd2Eae8ltWQ","books-five-people-in-heaven-bdf":"604/path---books-five-people-in-heaven-bdf-d05-KyVYTNmlTsN7aPJoBIS9TguewM","books-last-lecture-862":"464/path---books-last-lecture-862-19c-bMSjWieI3z0NHnDgpU1x0HTBIZQ","books-living-with-a-seal-52e":"633/path---books-living-with-a-seal-52-e-c39-SMi61Lev9DV7lAiRL6S9jg1IwOw","books-subtle-art-of-not-giving-a-fuck-d03":"14/path---books-subtle-art-of-not-giving-a-fuck-d-03-014-VrtJaUVENDJU71CXxfWTUzhd4","books-tools-of-titans-e3b":"229/path---books-tools-of-titans-e-3-b-e00-No2eFDzExJwVaecxJxAySIs9WU","books-tribe-of-mentors-578":"159/path---books-tribe-of-mentors-578-b4c-KX14JDxxxAJuLIIy3NOQ6DUDs4","books-vagabonding-1f3":"904/path---books-vagabonding-1-f-3-9a4-ylRp6drL7ia3n1LAs9iScAMd78","dev-404-page-5f9":"267/path---dev-404-page-5-f-9-fab-qlzSIBrvmgGyEHD0W0ran0Z90Oo","guides-6ee":"734/path---guides-6-ee-8ea-Mqexm6Hu8hRZlDIGtp8OOFhCxL8","guides-montreal-7de":"326/path---guides-montreal-7-de-9cd-bfaLcYe0u2sEXXZIK373d6Xg","guides-poland-ukraine-2019-b58":"139/path---guides-poland-ukraine-2019-b-58-34c-AbaBGy2vNnFtkfGtwjg9k1xIwI8","guides-poland-ukraine-69c":"783/path---guides-poland-ukraine-69-c-899-0SUcWyAf8ecbYDsMhQkEfPzV8","guides-queries-458":"226/path---guides-queries-458-150-0SUcWyAf8ecbYDsMhQkEfPzV8","guides-queries-poland-2019-photo-grid-aad":"760/path---guides-queries-poland-2019-photo-grid-aad-cca-0SUcWyAf8ecbYDsMhQkEfPzV8","guides-queries-ukraine-2019-photo-grid-20d":"122/path---guides-queries-ukraine-2019-photo-grid-20-d-2d5-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","quotes-cd2":"553/path---quotes-cd-2-18d-gYcjsmeCBcQXyjIosFys4ylSvE","sq--src-components-default-layout-js":2280076314,"sq--src-components-image-js":2011440971,"sq--src-components-seo-js":2417117884,"sq--src-pages-books-js":2730485705,"sq--src-pages-guides-js":1047620261,"sq--src-pages-guides-montreal-js":1533733973,"sq--src-pages-guides-poland-ukraine-2019-js":1209454947,"sq--src-pages-quotes-js":3454854959,"templates-books-template-744":"944/path---templates-books-template-744-adf-dIU9JjTDXOjtNI2ybkqTmp7X9I"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-blog-js","jsonName":"blog-f7a","path":"/blog/"},{"componentChunkName":"component---src-pages-books-js","jsonName":"books-b75","path":"/books/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-10-happier-3ef","path":"/books/10-happier"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-born-to-run-5c2","path":"/books/born-to-run"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-dignity-c03","path":"/books/dignity"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-extreme-ownership-47a","path":"/books/extreme-ownership"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-five-people-in-heaven-bdf","path":"/books/five-people-in-heaven"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-last-lecture-862","path":"/books/last-lecture"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-living-with-a-seal-52e","path":"/books/living-with-a-seal"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-subtle-art-of-not-giving-a-fuck-d03","path":"/books/subtle-art-of-not-giving-a-fuck"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tools-of-titans-e3b","path":"/books/tools-of-titans"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-tribe-of-mentors-578","path":"/books/tribe-of-mentors"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"books-vagabonding-1f3","path":"/books/vagabonding"},{"componentChunkName":"component---src-pages-guides-js","jsonName":"guides-6ee","path":"/guides/"},{"componentChunkName":"component---src-pages-guides-montreal-js","jsonName":"guides-montreal-7de","path":"/guides/montreal/"},{"componentChunkName":"component---src-pages-guides-poland-ukraine-2019-js","jsonName":"guides-poland-ukraine-2019-b58","path":"/guides/poland_ukraine_2019/"},{"componentChunkName":"component---src-pages-mech-460-portfolio-js","jsonName":"mech-460-portfolio-89e","path":"/mech-460-portfolio/"},{"componentChunkName":"component---src-pages-quotes-js","jsonName":"quotes-cd2","path":"/quotes/"},{"componentChunkName":"component---src-pages-templates-books-template-js","jsonName":"templates-books-template-744","path":"/templates/booksTemplate/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","blog-f7a":"433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8","books-10-happier-3ef":"403/path---books-10-happier-3-ef-225-nF2bHP0IeyhPZpq6daIGr4qanw","books-b75":"419/path---books-b-75-ed7-z9DxEAGAclQFbI9JVKlzrRssLA","books-born-to-run-5c2":"548/path---books-born-to-run-5-c-2-93c-TfQgq6fgzThw7p2B4EcF2UELV8","books-dignity-c03":"371/path---books-dignity-c-03-3c7-L0k4cU6wwnxC3iFUdt9jxexQ","books-extreme-ownership-47a":"533/path---books-extreme-ownership-47-a-120-9MDe1oE3DG9FTWTfd2Eae8ltWQ","books-five-people-in-heaven-bdf":"604/path---books-five-people-in-heaven-bdf-d05-KyVYTNmlTsN7aPJoBIS9TguewM","books-last-lecture-862":"464/path---books-last-lecture-862-19c-bMSjWieI3z0NHnDgpU1x0HTBIZQ","books-living-with-a-seal-52e":"633/path---books-living-with-a-seal-52-e-c39-SMi61Lev9DV7lAiRL6S9jg1IwOw","books-subtle-art-of-not-giving-a-fuck-d03":"14/path---books-subtle-art-of-not-giving-a-fuck-d-03-014-VrtJaUVENDJU71CXxfWTUzhd4","books-tools-of-titans-e3b":"229/path---books-tools-of-titans-e-3-b-e00-No2eFDzExJwVaecxJxAySIs9WU","books-tribe-of-mentors-578":"159/path---books-tribe-of-mentors-578-b4c-KX14JDxxxAJuLIIy3NOQ6DUDs4","books-vagabonding-1f3":"904/path---books-vagabonding-1-f-3-9a4-ylRp6drL7ia3n1LAs9iScAMd78","dev-404-page-5f9":"622/path---dev-404-page-5-f-9-fab-NHlfPmn26J2kLCUhg8L7joQvdPo","guides-6ee":"734/path---guides-6-ee-8ea-Mqexm6Hu8hRZlDIGtp8OOFhCxL8","guides-montreal-7de":"326/path---guides-montreal-7-de-9cd-bfaLcYe0u2sEXXZIK373d6Xg","guides-poland-ukraine-2019-b58":"139/path---guides-poland-ukraine-2019-b-58-34c-AbaBGy2vNnFtkfGtwjg9k1xIwI8","guides-poland-ukraine-69c":"783/path---guides-poland-ukraine-69-c-899-0SUcWyAf8ecbYDsMhQkEfPzV8","guides-queries-458":"226/path---guides-queries-458-150-0SUcWyAf8ecbYDsMhQkEfPzV8","guides-queries-poland-2019-photo-grid-aad":"760/path---guides-queries-poland-2019-photo-grid-aad-cca-0SUcWyAf8ecbYDsMhQkEfPzV8","guides-queries-ukraine-2019-photo-grid-20d":"122/path---guides-queries-ukraine-2019-photo-grid-20-d-2d5-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","mech-460-portfolio-89e":"16/path---mech-460-portfolio-89-e-089-AzYx8uDUfrrg61DrWNVWnPQMLs","quotes-cd2":"553/path---quotes-cd-2-18d-gYcjsmeCBcQXyjIosFys4ylSvE","sq--src-components-default-layout-js":2280076314,"sq--src-components-image-js":2011440971,"sq--src-components-seo-js":2417117884,"sq--src-pages-books-js":2730485705,"sq--src-pages-guides-js":1047620261,"sq--src-pages-guides-montreal-js":1533733973,"sq--src-pages-guides-poland-ukraine-2019-js":1209454947,"sq--src-pages-mech-460-portfolio-js":3791746792,"sq--src-pages-quotes-js":3454854959,"templates-books-template-744":"944/path---templates-books-template-744-adf-dIU9JjTDXOjtNI2ybkqTmp7X9I"}};
 
 /***/ }),
 
@@ -1021,6 +1021,7 @@ exports.components = {
   "component---src-pages-guides-montreal-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/guides/montreal.js */ "./src/pages/guides/montreal.js"))),
   "component---src-pages-guides-poland-ukraine-2019-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/guides/poland_ukraine_2019.js */ "./src/pages/guides/poland_ukraine_2019.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
+  "component---src-pages-mech-460-portfolio-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/mech-460-portfolio.js */ "./src/pages/mech-460-portfolio.js"))),
   "component---src-pages-quotes-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/quotes.js */ "./src/pages/quotes.js")))
 };
 
@@ -37810,6 +37811,56 @@ module.exports = {"data":{"allQuotesJson":{"edges":[{"node":{"emoji":"🗻","nam
 
 /***/ }),
 
+/***/ "./public/static/d/3791746792.json":
+/*!*****************************************!*\
+  !*** ./public/static/d/3791746792.json ***!
+  \*****************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = {"data":{"BikeRendering":{"childImageSharp":{"fixed":{"base64":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB9yeNxcVKodB//8QAGxABAAICAwAAAAAAAAAAAAAAAQACERIDECH/2gAIAQEAAQUCs4N/ZZWxx4Yht1//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAWEAEBAQAAAAAAAAAAAAAAAAAQEQH/2gAIAQEABj8CrHH/xAAaEAACAwEBAAAAAAAAAAAAAAAAAREhMZEQ/9oACAEBAAE/IUzMWmaSlPorUkSki6t8MHqN33//2gAMAwEAAgADAAAAEIjPAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABYRAQEBAAAAAAAAAAAAAAAAAAEgUf/aAAgBAgEBPxBcj//EAB4QAQACAQQDAAAAAAAAAAAAAAEAESEQMUFRYYGh/9oACAEBAAE/EHXYLogWhbi7PgiAGyXOIxSmG/XUEdpYCW4cfYAANiPKbbYwuNf/2Q==","width":500,"height":463,"src":"/static/b45f77fc706f0f874a0e411191bd2e97/32ee9/bike-rendering.jpg","srcSet":"/static/b45f77fc706f0f874a0e411191bd2e97/32ee9/bike-rendering.jpg 1x,\n/static/b45f77fc706f0f874a0e411191bd2e97/9f583/bike-rendering.jpg 1.5x"}}},"SkiRendering":{"childImageSharp":{"fixed":{"base64":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHdWULQD//EABoQAAIDAQEAAAAAAAAAAAAAAAECABAREjH/2gAIAQEAAQUC8inaI2KvNf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMAAwAAAAAAAAAAAAAAAAAQIQFRYf/aAAgBAQAGPwI4qTM0v//EABsQAQEAAgMBAAAAAAAAAAAAAAERABAhQVFh/9oACAEBAAE/IVBVmLbJ0fdAYKZVy/bX/9oADAMBAAIAAwAAABDzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB4QAQABBAIDAAAAAAAAAAAAAAERABAxUSFBYXHB/9oACAEBAAE/EI4htYpEOq2fONWekTI4aWHgNken5b//2Q==","width":500,"height":382,"src":"/static/457f900d6463ad43c6fa05d7c237ccd7/32ee9/ski-rendering.jpg","srcSet":"/static/457f900d6463ad43c6fa05d7c237ccd7/32ee9/ski-rendering.jpg 1x,\n/static/457f900d6463ad43c6fa05d7c237ccd7/9f583/ski-rendering.jpg 1.5x"}}},"GearBoxRendering":{"childImageSharp":{"fixed":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEKUlEQVQ4y62U20+TZxjA+Ufm1ZZ4syxZsotlyRLdkrnsZnNXbtFsMg8k46BCQWihQA/08H2l5Uy1HCODApWTCiriNplMRyIVDFYOLYUegP0Lvz3vh6jMi93s4umbPu/z/p7j9+SkUin+T8k5oNjaYsuQ1Mvzv0W92z8N4JvK17LJ1uaepFJp0ukMqXT6ld2m6JUYdoa8ZrwFTMnjTHab7M6uyA4bG3HWV2NsJNYFkiSdybC9u2vcKztDRLfPydmHKeV2NsNGfIXn0cf8NTPBzGAHoyEv/Y1WhpptjId83Oht5Va4kwd3R3ny+DcWo49YXl40MngVYTabZfbBDEPhDob62hgIehlsshFprCESsDKgldHvLePBjWHm7k0w3BOgr9NPT2cDrU1ORiJ9bEvEqgw56mdXUhgdCeOwl+MP1BEQ8bfqNDV7aQvWE+xqoCuoE+4P0XetlZZmjYC/jnqfHZejguuRfnYOAv9mcnIMj7OCVpcVf4OT3ryTBJyVdBWeZvLUd3jEie620tai4fNaaWpwMTHyC267iZHrA28DpybHqbNdpvnENwSsJUSOfEQw/yx3T35O/IND+Jo8aO4qpm6Nca27Gd1Txe8zo+iucoaH+owsDwDv3L6Bu85C+4fv03bpPD3Hj6L9eIbbY8eZ7n4XXXPh99XSUO+gO6QTbHERCYfQXGbGRsP/jnCXu9OTuGovEzr0DleLztHV5sZRZaEx8CW5Zz7BJ8AGvwOb9aJEWkmwTcNaVYa5/AIT48PSlJ03gEKfuTeFUwrsOPwevnM/iGcLAY9TavQFeacPU687DaBPs1F8KR/dW4PTVkq1pcBo6FsR3p+5Q51AzJ99iufCeSxHP8abl0u56XsKvzpMQLfjr7fjqDUJpEjg0rjOJiPiifGIAF9GmEwmZaiz3JuewuOqRJeGeJxmSr49hq3oLCUFuZw4dkQitBGQ+vm1asyms1IKmb+hHpw1xRLhoPH9JxIJcl68eMHKygo3b45KOjU0Slr1ei2aoxRHtQlL8Rl+PvW1NMSOT6DNAQed7R6B2w0H1spiBvp7hbFKLBYjZ2lpkYVoVLwMc7mskJrqUlxOi1EvBent8KM7y6XLtQZQzZ8CKbvysiLMFWUy2BHm5+eJCkeASywsLDA7O8uVK+3U1lgpNV2kpLgAU3E+leZLuKUUyom7rpLC/J8oKsyjqspMT3cXv96/z8OHfzA3N7cHVCk/e/YMBY49XyYq8EeP/mRqapLBcJiO0FU0r1sissiYVEiUGhGJSNlEF57w9GmUxcWnLC2q95KyKuT62jrx+DrJjYRxxtfXZF3FSSY3ZH3JvfyPxZ4bjtV9QlbZ6uqKIWq9JcR2bW1tryn7CzOV2mJnO0tazoystLTsvpTSq1MMM+mUIWonboojZafeZDN7i1dNi2L9AzTF5hFErNvNAAAAAElFTkSuQmCC","width":400,"height":293,"src":"/static/2cb34e61526ddca42fde6dadbe8413fa/647de/gearbox-rendering.png","srcSet":"/static/2cb34e61526ddca42fde6dadbe8413fa/647de/gearbox-rendering.png 1x,\n/static/2cb34e61526ddca42fde6dadbe8413fa/59139/gearbox-rendering.png 1.5x,\n/static/2cb34e61526ddca42fde6dadbe8413fa/af144/gearbox-rendering.png 2x"}}}}};
+
+/***/ }),
+
+/***/ "./src/components/SkillsTag.js":
+/*!*************************************!*\
+  !*** ./src/components/SkillsTag.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.function.name */ "core-js/modules/es6.function.name");
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_skills_tag_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/skills-tag.module.css */ "./src/components/styles/skills-tag.module.css");
+/* harmony import */ var _styles_skills_tag_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_skills_tag_module_css__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+
+var SkillsTag = function SkillsTag(_ref) {
+  var name = _ref.name,
+      color = _ref.color;
+  var colorClassName = color === "blue" ? _styles_skills_tag_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.blue : _styles_skills_tag_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.orange;
+  return react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+    className: [_styles_skills_tag_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.container, colorClassName].join(" ")
+  }, react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("span", null, name));
+};
+
+SkillsTag.propTypes = {
+  name: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
+  color: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(["blue", "orange"])
+};
+/* harmony default export */ __webpack_exports__["default"] = (SkillsTag);
+
+/***/ }),
+
 /***/ "./src/components/default-layout.js":
 /*!******************************************!*\
   !*** ./src/components/default-layout.js ***!
@@ -37847,7 +37898,8 @@ var DefaultLayout = function DefaultLayout(_ref) {
           margin: "0 auto",
           maxWidth: 960,
           padding: "0px 1.0875rem 1.45rem",
-          paddingTop: 0
+          paddingTop: 0,
+          boxSizing: "border-box"
         },
         className: className
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", null, children)));
@@ -38014,6 +38066,50 @@ Header.defaultProps = {
   siteTitle: ""
 };
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/components/internship.js":
+/*!**************************************!*\
+  !*** ./src/components/internship.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.function.name */ "core-js/modules/es6.function.name");
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_internship_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/internship.module.css */ "./src/components/styles/internship.module.css");
+/* harmony import */ var _styles_internship_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_internship_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+
+var Internship = function Internship(_ref) {
+  var name = _ref.name,
+      jobTitle = _ref.jobTitle,
+      term = _ref.term,
+      children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+    className: _styles_internship_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.container
+  }, react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+    className: _styles_internship_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.heading
+  }, react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h4", null, name), react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("i", null, jobTitle)), react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("p", null, term), react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("ul", null, children));
+};
+
+Internship.propTypes = {
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+  jobTitle: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+  name: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+  term: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string
+};
+/* harmony default export */ __webpack_exports__["default"] = (Internship);
 
 /***/ }),
 
@@ -38520,6 +38616,20 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./src/components/styles/internship.module.css":
+/*!*****************************************************!*\
+  !*** ./src/components/styles/internship.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"heading": "internship-module--heading--3jnbX",
+	"container": "internship-module--container--2Tg5K"
+};
+
+/***/ }),
+
 /***/ "./src/components/styles/project.module.css":
 /*!**************************************************!*\
   !*** ./src/components/styles/project.module.css ***!
@@ -38549,6 +38659,21 @@ module.exports = {
 	"author": "quote-module--author--3g86m",
 	"quote": "quote-module--quote--2_goG",
 	"link": "quote-module--link--TqREI"
+};
+
+/***/ }),
+
+/***/ "./src/components/styles/skills-tag.module.css":
+/*!*****************************************************!*\
+  !*** ./src/components/styles/skills-tag.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"container": "skills-tag-module--container--2u3G8",
+	"orange": "skills-tag-module--orange--2W9hI",
+	"blue": "skills-tag-module--blue--2qfSF"
 };
 
 /***/ }),
@@ -39078,6 +39203,150 @@ var IndexPage = function IndexPage() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
+
+/***/ }),
+
+/***/ "./src/pages/mech-460-portfolio.js":
+/*!*****************************************!*\
+  !*** ./src/pages/mech-460-portfolio.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es6_string_fixed__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.string.fixed */ "core-js/modules/es6.string.fixed");
+/* harmony import */ var core_js_modules_es6_string_fixed__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_string_fixed__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _public_static_d_3791746792_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../public/static/d/3791746792.json */ "./public/static/d/3791746792.json");
+var _public_static_d_3791746792_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/3791746792.json */ "./public/static/d/3791746792.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _components_default_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/default-layout */ "./src/components/default-layout.js");
+/* harmony import */ var _components_fancy_heading__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/fancy-heading */ "./src/components/fancy-heading.js");
+/* harmony import */ var _components_internship__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/internship */ "./src/components/internship.js");
+/* harmony import */ var _components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/SkillsTag */ "./src/components/SkillsTag.js");
+/* harmony import */ var react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-simple-flex-grid */ "./node_modules/react-simple-flex-grid/lib/index.js");
+/* harmony import */ var react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
+/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_10__);
+
+
+
+
+
+
+
+
+
+
+
+
+var Quotes = function Quotes() {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_default_layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    showHeader: false,
+    className: "article"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "MECH460/462 E-Portfolio",
+    description: "E-Portfolio as part of the requirements for MECH 460/462"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_fancy_heading__WEBPACK_IMPORTED_MODULE_5__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, "Ozzie Kirkby")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Row"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+    sm: 12
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_9__["StaticQuery"], {
+    query: query,
+    render: function render(data) {
+      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Content, {
+        data: data
+      });
+    },
+    data: _public_static_d_3791746792_json__WEBPACK_IMPORTED_MODULE_1__
+  }))));
+};
+
+var Content = function Content(_ref) {
+  var data = _ref.data;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    className: "subheading"
+  }, "About Me"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "4th-year Mechanical Engineering student at Queen's University. I am particularly interested in computer modelling, tools for learning, and the intersection of biology and engineering. Outside of school, I have acquired a wide breadth of programming experience, from building modern web applications, to working on data pipelines, to launching iOS apps. This has led me to internships at", " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    className: "lk-cb",
+    target: "_bank",
+    href: "https://www.coinbase.com/"
+  }, "Coinbase"), " ", "and", " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    className: "lk-green",
+    target: "_bank",
+    href: "https://www.shopify.com/"
+  }, "Shopify"), " ", "where I have had to opportunity to write code at scale. When I am not studying, I am either working on my side projects, learning Russian or running."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As a person, I aim to be continuously curious, solution-oriented and a team-player at heart. I excel whenever I have the ability to intersect my software engineering background with mechanical problems, creating unique perspectives and potential solutions. However, I am actively working on avoiding my tendency to over-engineer solutions. The beauty of simplicity is a goal I am constantly looking to attain."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    style: {
+      display: "flex"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "Python",
+    color: "blue"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "iOS development",
+    color: "blue"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "MATLAB",
+    color: "blue"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "Full-stack Software Development",
+    color: "blue"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "MySql",
+    color: "blue"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "Data Visualization",
+    color: "blue"
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    className: "subheading"
+  }, "Internships"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Row"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+    xs: 12
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_internship__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    name: "Coinbase",
+    jobTitle: "Software Engineer Intern",
+    term: "Summer 2020"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Converted a high-performance HTML canvas implementation to be React based, improving the performance by 20%."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Implemented Bazel tooling specific to frontend development in a Monorepo setting. Aligned several teams on a single configurations to be shared."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Integrated chart market visualizations for institutional investors, allowing them to understand the market conditions in real-time."))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+    xs: 12
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_internship__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    name: "Shopify",
+    jobTitle: "Software Engineer Intern",
+    term: "Summer 2019"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Developed dimensional models using PySpark and star modelling techniques to identify potential performance improvements within the Data Infrastructure."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Designed a failure resilient architecture to manage the complicated state transitions for an internal product."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Developed the fundamental architecture for a new system to allow for the discovery of data assets produced internally."))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+    xs: 12
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_internship__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    name: "Shopify",
+    jobTitle: "iOS Engineer Intern",
+    term: "Summer 2018"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Developed features to make it easier for merchants to gain insights into their business, reaching over 500k active users."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Designed new components within the Home tab, resulting in a more reliable and engaging mobile experience."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Integrated a new flow for merchants to identify, address, and monitor revenue opportunities within their business.")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    className: "subheading"
+  }, "MECH 323"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As part of the MECH 323 Machine Design course, we were divided into groups and tasked to design a gearbox for a remote-controlled car. The gearbox designed by each of the groups were set to compete in top speed and hill competition to see who designed the best gearbox. Our group settled on a single-stage shifting gearbox to ensure adequate performance in each of the competitions. I was primarily responsible for modeling each of the scenarios and writing simulations to ensure our design was feasible in practice. Below you'll see the 3D rendering of our proposed gearbox."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    style: {
+      width: "100%",
+      display: "flex",
+      backgroundColor: "#e7e7e7",
+      justifyContent: "center",
+      borderRadius: "8pt",
+      overflow: "hidden",
+      border: "1pt solid #e1e1e1"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_10___default.a, {
+    key: "gear box render",
+    fixed: data["GearBoxRendering"].childImageSharp.fixed
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    className: "subheading"
+  }, "APSC 202"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "Having transferred into the engineering faculty, I had the opportunity to participate in the transfer section for APSC 200 which aims to make up for credits that typical first-year engineering students would typically complete. We were divided into groups with students from other disciplines and paired with a client from the community. My group was tasked with improving the experience for a local bike-enthusiast who was experiencing difficulties biking during the winter months. We designed and prototyped a set of skis that can be attached to her bicycle, improving performance and safety during the winter."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "image-figure"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_10___default.a, {
+    key: "ski render",
+    fixed: data["SkiRendering"].childImageSharp.fixed
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_10___default.a, {
+    key: "bike render",
+    fixed: data["BikeRendering"].childImageSharp.fixed
+  })));
+};
+
+var query = "3791746792";
+/* harmony default export */ __webpack_exports__["default"] = (Quotes);
 
 /***/ }),
 
