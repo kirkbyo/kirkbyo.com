@@ -39140,23 +39140,23 @@ var IndexPage = function IndexPage() {
     xs: 12,
     sm: 6
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_project__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "SciSwift",
+    description: "Naturally combine units of measurement with Swift code to ensure dimensionally homogenous calculations at compile time. ",
+    github: "https://github.com/kirkbyo/SciSwift"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_6__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+    xs: 12,
+    sm: 6
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_project__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "BitLeague",
     description: "Developed apart of a team at QHacks19. Create, browse, and vote on community recreations of Bitmojis",
     github: "https://github.com/schmidyy/BitLeague"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_6__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_6__["Col"], {
     xs: 12,
     sm: 6
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_project__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Polydoxical",
     description: "WWDC 17 Playground Submission. Interactive playground to experiment with roulettes and polygons",
     github: "https://github.com/kirkbyo/Polydoxical"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-    xs: 12,
-    sm: 6
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_project__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "Dimensional",
-    description: "WWDC 18 Playground Submission. An experiment to naturally combine units of measurement with Swift code to ensure dimensionally homogenous calculations.",
-    github: "https://github.com/kirkbyo/WWDC18"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "subheading"
   }, "Central Filing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -39248,8 +39248,8 @@ var Quotes = function Quotes() {
     showHeader: false,
     className: "article"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "MECH460/462 E-Portfolio",
-    description: "E-Portfolio as part of the requirements for MECH 460/462"
+    title: "MECH460/464 E-Portfolio",
+    description: "E-Portfolio as part of the requirements for MECH 460/464"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_fancy_heading__WEBPACK_IMPORTED_MODULE_5__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, "Ozzie Kirkby")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Row"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     sm: 12
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_9__["StaticQuery"], {
@@ -39267,7 +39267,7 @@ var Content = function Content(_ref) {
   var data = _ref.data;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
     className: "subheading"
-  }, "About Me"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "4th-year Mechanical Engineering student at Queen's University. I am particularly interested in computer modelling, tools for learning, and the intersection of biology and engineering. Outside of school, I have acquired a wide breadth of programming experience, from building modern web applications, to working on data pipelines, to launching iOS apps. This has led me to internships at", " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  }, "About Me"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "I am 4th-year Mechanical Engineering student at Queen's University. Currently, I am particularly interested in computer modelling, tools for learning, and the intersection of biology and engineering. Outside of school, I have acquired a wide breadth of programming experience, from building modern web applications, to working on data pipelines, to launching iOS apps. This has led me to internships at", " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     className: "lk-cb",
     target: "_bank",
     href: "https://www.coinbase.com/"
@@ -39275,7 +39275,7 @@ var Content = function Content(_ref) {
     className: "lk-green",
     target: "_bank",
     href: "https://www.shopify.com/"
-  }, "Shopify"), " ", "where I have had to opportunity to write code at scale. When I am not studying, I am either working on my side projects, learning Russian or running."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As a person, I aim to be continuously curious, solution-oriented and a team-player at heart. I excel whenever I have the ability to intersect my software engineering background with mechanical problems, creating unique perspectives and potential solutions. However, I am actively working on avoiding my tendency to over-engineer solutions. The beauty of simplicity is a goal I am constantly looking to attain."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, "Shopify"), " ", "where I have had the to opportunity to write code at scale. When I am not studying, I am either working on my side projects, learning Russian or running."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As a person, I aim to be continuously curious, solution-oriented and a team-player at heart. I excel whenever I have the ability to intersect my software engineering background with mechanical problems. In turn, creating unique perspectives and potential solutions. However, I am actively trying to avoid my tendency to over-engineer solutions."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     style: {
       display: "flex"
     }
@@ -39319,7 +39319,7 @@ var Content = function Content(_ref) {
     term: "Summer 2018"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Developed features to make it easier for merchants to gain insights into their business, reaching over 500k active users."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Designed new components within the Home tab, resulting in a more reliable and engaging mobile experience."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Integrated a new flow for merchants to identify, address, and monitor revenue opportunities within their business.")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
     className: "subheading"
-  }, "MECH 323"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As part of the MECH 323 Machine Design course, we were divided into groups and tasked to design a gearbox for a remote-controlled car. The gearbox designed by each of the groups were set to compete in top speed and hill competition to see who designed the best gearbox. Our group settled on a single-stage shifting gearbox to ensure adequate performance in each of the competitions. I was primarily responsible for modeling each of the scenarios and writing simulations to ensure our design was feasible in practice. Below you'll see the 3D rendering of our proposed gearbox."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, "MECH 323"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As part of the MECH 323 Machine Design course, we were divided into groups and tasked to design a gearbox for a remote-controlled car. The gearbox designed by each of the groups were set to compete in a top speed and hill competition to see who designed the best gearbox. Our group settled on a single-stage shifting gearbox to ensure adequate performance in each of the competitions. I was primarily responsible for modeling each of the scenarios and writing simulations to ensure our design was feasible in practice. Below you'll see the 3D rendering of our proposed gearbox."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     style: {
       width: "100%",
       display: "flex",
@@ -39334,7 +39334,7 @@ var Content = function Content(_ref) {
     fixed: data["GearBoxRendering"].childImageSharp.fixed
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
     className: "subheading"
-  }, "APSC 202"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "Having transferred into the engineering faculty, I had the opportunity to participate in the transfer section for APSC 200 which aims to make up for credits that typical first-year engineering students would typically complete. We were divided into groups with students from other disciplines and paired with a client from the community. My group was tasked with improving the experience for a local bike-enthusiast who was experiencing difficulties biking during the winter months. We designed and prototyped a set of skis that can be attached to her bicycle, improving performance and safety during the winter."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, "APSC 202"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "Having transferred into the engineering faculty, I had the opportunity to participate in the transfer section for APSC 200 which aims to make up for credits that a typical first-year engineering students would have already completed. We were divided into groups with students from other disciplines and paired with a client from the community. My group was tasked with improving the experience for a local bike-enthusiast who was experiencing difficulties biking during the winter months. We designed and prototyped a set of skis that can be attached to her bicycle, improving performance and safety during the winter."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "image-figure"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_10___default.a, {
     key: "ski render",
