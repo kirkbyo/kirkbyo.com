@@ -39275,7 +39275,9 @@ var Content = function Content(_ref) {
     className: "lk-green",
     target: "_bank",
     href: "https://www.shopify.com/"
-  }, "Shopify"), " ", "where I have had the opportunity to write code at scale. When I am not studying, I am either working on my side projects, learning Russian or running."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As a person, I aim to be continuously curious, solution-oriented and a team-player at heart. I excel whenever I can intersect my software engineering background with mechanical problems. In turn, creating unique perspectives and potential solutions. However, I am actively trying to avoid my tendency to over-engineer solutions."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, "Shopify"), " ", "where I have had the opportunity to write code at scale. When I am not studying, I am either working on my side projects, learning Russian or running."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "As a person, I aim to be continuously curious, solution-oriented and a team-player at heart. I excel whenever I can intersect my software engineering background with mechanical problems. In turn, creating unique perspectives and potential solutions. However, I am actively trying to avoid my tendency to over-engineer solutions. Moving forward, I have not set my sails to a specific career, however, my ideal job would be to work in a role where I can solve a wide set of problems and possibly apply my mixed background of mechanical and software together."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    href: "mailto:16ok9@queensu.ca"
+  }, "Contact me")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     style: {
       display: "flex"
     }
@@ -39292,11 +39294,24 @@ var Content = function Content(_ref) {
     name: "Full-stack Software Development",
     color: "blue"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    name: "MySql",
+    name: "SQL",
     color: "blue"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
     name: "Data Visualization",
     color: "blue"
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    style: {
+      display: "flex"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "Clear communication",
+    color: "orange"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "Project management",
+    color: "orange"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_SkillsTag__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: "Positive energy",
+    color: "orange"
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
     className: "subheading"
   }, "Internships"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Row"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_simple_flex_grid__WEBPACK_IMPORTED_MODULE_8__["Col"], {
